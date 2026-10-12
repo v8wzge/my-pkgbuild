@@ -1,0 +1,100 @@
+# kdesvn 2.1.0 in [extra] is built from the KF5/Qt5 release tarball
+# (download.kde.org/stable/kdesvn/2.1.0). The Qt6/KF6 port only exists on the
+# master branch, so this package tracks upstream git until a KF6 release is
+# tagged. Once upstream tags one (and [extra] picks it up), this package can be
+# dropped in favour of the official one.
+
+pkgname=kdesvn-git
+pkgver=2.1.0.r2890.g045501a5
+pkgrel=1
+pkgdesc="A pure C++ SVN client for KDE (Qt6/KF6 development version)"
+arch=('x86_64')
+url="https://invent.kde.org/sdk/kdesvn"
+license=('GPL-2.0-or-later')
+depends=(
+  'kbookmarks'
+  'kcodecs'
+  'kcompletion'
+  'kconfig'
+  'kconfigwidgets'
+  'kcoreaddons'
+  'kdbusaddons'
+  'ki18n'
+  'kiconthemes'
+  'kitemviews'
+  'kjobwidgets'
+  'kio'
+  'knotifications'
+  'kparts'
+  'kservice'
+  'ktextwidgets'
+  'kwallet'
+  'kwidgetsaddons'
+  'kxmlgui'
+  'qt6-5compat'
+  'subversion'
+  'kdiff3'
+)
+makedepends=(
+  'cmake'
+  'extra-cmake-modules'
+  'kdoctools'
+  'db'
+  'gettext'
+  'git'
+)
+provides=('kdesvn')
+conflicts=('kdesvn')
+
+options=(!debug)
+source=("kdesvn::git+https://invent.kde.org/sdk/kdesvn.git#branch=master"
+        "kdesvn-zh_CN.po")
+sha256sums=('SKIP'
+            '8f42878ef7dde6908fbf623c47c2705d4c826f245bf5f3691a7d1b9e1de6c394')
+
+prepare() {
+  # Updated Simplified Chinese translation (937/937 messages, 0 fuzzy).
+  #
+  # Upstream's po/ tree is a read-only mirror of KDE's l10n SVN, synced by the
+  # "l10n daemon script"; the shipped zh_CN file there is only 226/937
+  # translated. Our file is based on the very same POT
+  # (POT-Creation-Date: 2025-11-17 11:54+0000) and its msgid set is identical
+  # to upstream master, so it can replace it wholesale.
+  #
+  # Drop this file (and the source/sha256sums entries above) once the
+  # translation has been merged upstream - see .workbuddy/submit/ in the dev
+  # checkout for the Crowdin/SVN submission package.
+  install -Dm644 "$srcdir/kdesvn-zh_CN.po" "$srcdir/kdesvn/po/zh_CN/kdesvn.po"
+}
+
+build() {
+  cmake -B build -S kdesvn \
+    -DCMAKE_BUILD_TYPE=None \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DBUILD_TESTING=OFF \
+    -Wno-dev \
+    -DCMAKE_C_FLAGS="$CFLAGS" \
+    -DCMAKE_CXX_FLAGS="$CXXFLAGS" \
+    -DCMAKE_EXE_LINKER_FLAGS="$LDFLAGS" \
+    -DCMAKE_SHARED_LINKER_FLAGS="$LDFLAGS" \
+    -DCMAKE_MODULE_LINKER_FLAGS="$LDFLAGS"
+  cmake --build build
+}
+
+package() {
+  DESTDIR="$pkgdir" cmake --install build
+
+  local mo="$pkgdir/usr/share/locale/zh_CN/LC_MESSAGES/kdesvn.mo"
+  local translated
+  translated=$(msgunfmt "$mo" | awk '
+    /^msgid /     { st=0; next }
+    /^msgstr ""$/ { st=1; next }
+    /^msgstr "/   { n++; next }
+    /^"/          { if (st==1) { st=2; n++ } }
+    END           { print n+0 }')
+  if (( translated < 900 )); then
+    error "zh_CN translation is incomplete: only ${translated} messages in ${mo}"
+    return 1
+  fi
+  msg2 "zh_CN: ${translated} translated messages"
+}

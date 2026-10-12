@@ -1,0 +1,5623 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdesvn\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2026-09-28 03:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf6-trunk/messages/kdesvn/kdesvn.pot\n"
+"X-Crowdin-File-ID: 57594\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: src/askpass/kdesvn-askpass.cpp:36
+#, kde-format
+msgid "kdesvnaskpass"
+msgstr "kdesvnaskpass"
+
+#: src/askpass/kdesvn-askpass.cpp:38
+#, kde-format
+msgid "ssh-askpass for kdesvn"
+msgstr "用于 kdesvn 的 ssh-askpass"
+
+#: src/askpass/kdesvn-askpass.cpp:40
+#, kde-format
+msgid "Copyright (c) 2005-2009 Rajko Albrecht"
+msgstr "Copyright (c) 2005-2009 Rajko Albrecht"
+
+#: src/askpass/kdesvn-askpass.cpp:43
+#, kde-format
+msgid "Prompt"
+msgstr "提示"
+
+#: src/askpass/kdesvn-askpass.cpp:55
+#, kde-format
+msgid "Please enter your password below."
+msgstr "请输入您的密码。"
+
+#: src/askpass/kdesvn-askpass.cpp:75
+#, kde-format
+msgctxt "@title:window"
+msgid "Password"
+msgstr "密码"
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:51
+#, kde-format
+msgid "Checkout From Repository..."
+msgstr "从版本库检出..."
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:54
+#, kde-format
+msgid "Export..."
+msgstr "导出..."
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:57
+#, kde-format
+msgid "Update (Kdesvn)"
+msgstr "更新 (Kdesvn)"
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:60
+#, kde-format
+msgid "Commit (Kdesvn)"
+msgstr "提交 (Kdesvn)"
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:63
+#, kde-format
+msgid "kdesvn log (last 100)"
+msgstr "kdesvn 日志（最近 100 条）"
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:66
+#, kde-format
+msgid "Export from a Subversion repository..."
+msgstr "从 Subversion 版本库导出..."
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:69
+#, kde-format
+msgid "Checkout from a repository..."
+msgstr "从 Subversion 版本库检出..."
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:74
+#, kde-format
+msgid "Detailed Subversion info"
+msgstr "Subversion 详细信息"
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:77
+#, kde-format
+msgid "Add to Repository"
+msgstr "添加至版本库"
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:80
+#: src/svnfrontend/maintreewidget.cpp:655
+#, kde-format
+msgid "Check for unversioned items"
+msgstr "检查未版本化的项目"
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:83
+#, kde-format
+msgid "Delete From Repository"
+msgstr "从版本库删除"
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:86
+#, kde-format
+msgid "Revert Local Changes"
+msgstr "还原本地修改"
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:89
+#, kde-format
+msgid "Rename..."
+msgstr "重命名..."
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:92
+#, kde-format
+msgid "Import Repository"
+msgstr "导入版本库"
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:97
+#, kde-format
+msgid "Switch..."
+msgstr "切换..."
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:100
+#: src/svnfrontend/maintreewidget.cpp:826
+#, kde-format
+msgid "Merge..."
+msgstr "合并..."
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:105
+#, kde-format
+msgid "Blame..."
+msgstr "追溯..."
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:108
+#, kde-format
+msgid "Create Patch..."
+msgstr "创建修补文件..."
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:113
+#, kde-format
+msgid "Diff (local)"
+msgstr "差异（本地）"
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:116
+#, kde-format
+msgid "Display revision tree"
+msgstr "显示修订版文件树"
+
+#: src/fileitemactions/kdesvnactionsplugin.cpp:127
+#, kde-format
+msgid "Subversion (kdesvn)"
+msgstr "Subversion (kdesvn)"
+
+#: src/kdesvn.cpp:82
+#, kde-format
+msgid "&Bookmarks"
+msgstr "书签(&B)"
+
+#: src/kdesvn.cpp:106
+#, kde-format
+msgid "Create and open new repository"
+msgstr "创建并打开新的版本库"
+
+#: src/kdesvn.cpp:107
+#, kde-format
+msgid "Create and opens a new local Subversion repository"
+msgstr "创建并打开新的本地 Subversion 版本库"
+
+#: src/kdesvn.cpp:110
+#, kde-format
+msgid "Dump repository to file"
+msgstr "转储版本库到文件"
+
+#: src/kdesvn.cpp:111
+#, kde-format
+msgid "Dump a Subversion repository to a file"
+msgstr "将一个 Subversion 版本库转储到文件"
+
+#: src/kdesvn.cpp:114
+#, kde-format
+msgid "Hotcopy a repository"
+msgstr "热备份一个版本库"
+
+#: src/kdesvn.cpp:115
+#, kde-format
+msgid "Hotcopy a Subversion repository to a new folder"
+msgstr "将一个 Subversion 版本库热备份到一个新文件夹"
+
+#: src/kdesvn.cpp:118
+#, kde-format
+msgid "Load dump into repository"
+msgstr "加载转储到版本库里"
+
+#: src/kdesvn.cpp:119
+#, kde-format
+msgid "Load a dump file into a repository."
+msgstr "加载一个转储文件到一个版本库里。"
+
+#: src/kdesvn.cpp:122
+#, kde-format
+msgid "Add ssh identities to ssh-agent"
+msgstr "将 ssh 身份添加到 ssh-agent"
+
+#: src/kdesvn.cpp:123
+#, kde-format
+msgid "Force add ssh-identities to ssh-agent for future use."
+msgstr "将 ssh 身份 (ssh-identities) 强制添加到 ssh-agent 以便未来使用。"
+
+#: src/kdesvn.cpp:126
+#, kde-format
+msgid "Info about kdesvn part"
+msgstr "关于 kdesvn 部件的信息"
+
+#: src/kdesvn.cpp:127
+#, kde-format
+msgid "Shows info about the kdesvn plugin and not the standalone application."
+msgstr "显示的信息是关于 kdesvn 插件程序的，而不是作为独立应用程序的 kdesvn。"
+
+#: src/kdesvn.cpp:130
+#, kde-format
+msgid "Show database content"
+msgstr "显示数据库内容"
+
+#: src/kdesvn.cpp:131
+#, kde-format
+msgid "Show the content of log cache database"
+msgstr "显示日志缓存数据库的内容"
+
+#: src/kdesvn.cpp:138
+#, kde-format
+msgid ""
+"Could not load our part:\n"
+"%1"
+msgstr ""
+"无法加载我们的组件：\n"
+"%1"
+
+#: src/kdesvn.cpp:169
+#, kde-format
+msgid "Could not open URL %1"
+msgstr "无法打开网址 %1"
+
+#: src/kdesvn.cpp:201
+#, kde-format
+msgid "Recent opened URLs"
+msgstr "最近打开的网址"
+
+#: src/kdesvn.cpp:210
+#, kde-format
+msgid "Load last opened URL on start"
+msgstr "启动时加载最近打开的网址"
+
+#: src/kdesvn.cpp:212
+#, kde-format
+msgid "Reload last opened URL if no one is given on command line"
+msgstr "命令行上未提供时重新加载最近打开的网址"
+
+#: src/kdesvn.cpp:295
+#, kde-format
+msgid "Ready"
+msgstr "就绪"
+
+#: src/kdesvn_part.cpp:156
+#, kde-format
+msgid "Logs follow node changes"
+msgstr "日志跟随节点变更"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_display_ignored_files)
+#. i18n: ectx: label, entry, group (subversion)
+#: src/kdesvn_part.cpp:161 src/settings/display_settings.ui:57
+#: src/settings/kdesvn_part.kcfg:80
+#, kde-format
+msgid "Display ignored files"
+msgstr "显示已忽略文件"
+
+#. i18n: ectx: label, entry, group (subversion)
+#: src/kdesvn_part.cpp:166 src/settings/kdesvn_part.kcfg:84
+#, kde-format
+msgid "Display unknown files"
+msgstr "显示未知文件"
+
+#: src/kdesvn_part.cpp:171
+#, kde-format
+msgid "Hide unchanged files"
+msgstr "隐藏未变更文件"
+
+#: src/kdesvn_part.cpp:176
+#, kde-format
+msgid "Work online"
+msgstr "在线工作"
+
+#: src/kdesvn_part.cpp:183
+#, kde-format
+msgid "Configure Kdesvn..."
+msgstr "配置 Kdesvn..."
+
+#: src/kdesvn_part.cpp:187
+#, kde-format
+msgid "About kdesvn part"
+msgstr "关于 kdesvn 部件"
+
+#: src/kdesvn_part.cpp:191
+#, kde-format
+msgid "Kdesvn Handbook"
+msgstr "Kdesvn 手册"
+
+#: src/kdesvn_part.cpp:282
+#, kde-format
+msgid ""
+"Built with Subversion library: %1\n"
+"Running Subversion library: %2"
+msgstr ""
+"构建时用的 Subversion 函数库：%1\n"
+"运行时的 Subversion 函数库：%2"
+
+#: src/kdesvn_part.cpp:285
+#, kde-format
+msgid "kdesvn Part"
+msgstr "kdesvn 部件"
+
+#: src/kdesvn_part.cpp:287
+#, kde-format
+msgid "A Subversion Client by KDE (dynamic Part component)"
+msgstr "来自 KDE 的 Subversion 客户端（动态 KPart 组件）"
+
+#: src/kdesvn_part.cpp:289
+#, kde-format
+msgid ""
+"(C) 2005-2009 Rajko Albrecht,\n"
+"(C) 2015-2018 Christian Ehrlicher"
+msgstr ""
+"(C) 2005-2009 Rajko Albrecht,\n"
+"(C) 2015-2018 Christian Ehrlicher"
+
+#: src/kdesvn_part.cpp:292
+#, kde-format
+msgid "Original author and maintainer"
+msgstr "原作者及维护者"
+
+#: src/kdesvn_part.cpp:293 src/main.cpp:43 src/main.cpp:44
+#, kde-format
+msgid "Developer"
+msgstr "开发者"
+
+#. i18n: ectx: Menu (subversion_general)
+#: src/kdesvn_part.cpp:329 src/kdesvn_part.rc:19
+#, kde-format
+msgid "General"
+msgstr "常规"
+
+#: src/kdesvn_part.cpp:329
+#, kde-format
+msgid "General Settings"
+msgstr "常规设置"
+
+#. i18n: ectx: Menu (subversion_main)
+#: src/kdesvn_part.cpp:330 src/kdesvn_part.rc:17 src/kdesvnui.rc:25
+#, kde-format
+msgid "Subversion"
+msgstr "Subversion"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SubversionSettings)
+#: src/kdesvn_part.cpp:330 src/settings/subversion_settings.ui:6
+#, kde-format
+msgid "Subversion Settings"
+msgstr "Subversion 设置"
+
+#: src/kdesvn_part.cpp:331
+#, kde-format
+msgid "Timed jobs"
+msgstr "定时工作"
+
+#: src/kdesvn_part.cpp:331
+#, kde-format
+msgid "Settings for timed jobs"
+msgstr "定时工作设置"
+
+#: src/kdesvn_part.cpp:332
+#, kde-format
+msgid "Diff & Merge"
+msgstr "差异与合并(&M)"
+
+#: src/kdesvn_part.cpp:332
+#, kde-format
+msgid "Settings for diff and merge"
+msgstr "差异与合并的设置"
+
+#: src/kdesvn_part.cpp:333
+#, kde-format
+msgid "Colors"
+msgstr "颜色"
+
+#: src/kdesvn_part.cpp:333
+#, kde-format
+msgid "Color Settings"
+msgstr "颜色设置"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, RevisionTreeSettings)
+#: src/kdesvn_part.cpp:334 src/settings/revisiontree_settings.ui:6
+#, kde-format
+msgid "Revision tree Settings"
+msgstr "修订版文件树设置"
+
+#: src/kdesvn_part.cpp:334
+#, kde-format
+msgid "Revision tree"
+msgstr "修订版文件树"
+
+#: src/kdesvn_part.cpp:336
+#, kde-format
+msgid "KIO / Command line"
+msgstr "KIO / 命令行"
+
+#: src/kdesvn_part.cpp:338
+#, kde-format
+msgid "Settings for command line and KIO execution"
+msgstr "命令行与 KIO 执行的设置"
+
+#. i18n: ectx: Menu (settings)
+#: src/kdesvn_part.rc:5
+#, kde-format
+msgid "Subversion settings"
+msgstr "Subversion 设置"
+
+#. i18n: ectx: Menu (quicksettings)
+#: src/kdesvn_part.rc:7 src/kdesvnui.rc:43
+#, kde-format
+msgid "Quick settings"
+msgstr "快速设置"
+
+#. i18n: ectx: Menu (subversion_working_copy)
+#: src/kdesvn_part.rc:49
+#, kde-format
+msgid "Working copy"
+msgstr "工作副本"
+
+#. i18n: ectx: Menu (subversion_repo)
+#: src/kdesvn_part.rc:75
+#, kde-format
+msgid "Repository"
+msgstr "版本库"
+
+#. i18n: ectx: Menu (generic_view)
+#: src/kdesvn_part.rc:82
+#, kde-format
+msgid "View"
+msgstr "视图"
+
+#. i18n: ectx: Menu (log_cache)
+#: src/kdesvn_part.rc:89
+#, kde-format
+msgid "Log cache"
+msgstr "日志缓存"
+
+#. i18n: ectx: Menu (help)
+#: src/kdesvn_part.rc:98 src/kdesvnui.rc:52
+#, kde-format
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#. i18n: ectx: Menu (local_context_single_conflicted)
+#. i18n: ectx: Menu (local_context_single_versioned)
+#. i18n: ectx: Menu (local_context_single_unversioned)
+#. i18n: ectx: Menu (local_context_multi)
+#: src/kdesvn_part.rc:106 src/kdesvn_part.rc:113 src/kdesvn_part.rc:154
+#: src/kdesvn_part.rc:162
+#, kde-format
+msgid "Actions"
+msgstr "操作"
+
+#. i18n: ectx: ToolBar (subversionToolBar)
+#: src/kdesvn_part.rc:242 src/kdesvnui.rc:58
+#, kde-format
+msgid "Subversion toolbar"
+msgstr "Subversion 工具栏"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/kdesvn_part.rc:260 src/kdesvnui.rc:62
+#, kde-format
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: src/kdesvnd/kdesvnd.cpp:233
+#, kde-format
+msgctxt "@title:window"
+msgid "Enter Password for Realm %1"
+msgstr "输入 %1 域的密码"
+
+#: src/kdesvnd/kdesvnd.cpp:249 src/svnfrontend/ccontextlistener.cpp:284
+#, kde-format
+msgid "Open a file with a #PKCS12 certificate"
+msgstr "打开含有 #PKCS12 证书的文件"
+
+#: src/kdesvnd/kdesvnd.cpp:336
+#, kde-format
+msgid "Current task"
+msgstr "当前任务"
+
+#: src/kdesvnd/kdesvnd.cpp:348
+#, kde-format
+msgid "Current transfer"
+msgstr "当前传输"
+
+#: src/kdesvnd/ksvnjobview.cpp:52
+#, kde-format
+msgid "bytes"
+msgstr "字节"
+
+#. i18n: ectx: Menu (file)
+#: src/kdesvnui.rc:4
+#, kde-format
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (subversion_admin)
+#: src/kdesvnui.rc:10
+#, kde-format
+msgid "Subversion Admin"
+msgstr "Subversion 管理"
+
+#. i18n: ectx: Menu (database_menu)
+#: src/kdesvnui.rc:30
+#, kde-format
+msgid "Database"
+msgstr "数据库"
+
+#. i18n: ectx: Menu (settings)
+#: src/kdesvnui.rc:35
+#, kde-format
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#: src/kdesvnview.cpp:132 src/kdesvnview.cpp:166
+#, kde-format
+msgid "Repository opened"
+msgstr "已打开的版本库"
+
+#: src/kdesvnview.cpp:172
+#, kde-format
+msgid "Could not open repository"
+msgstr "无法打开版本库"
+
+#: src/kdesvnview.cpp:197
+#, kde-format
+msgid "No repository open"
+msgstr "没有已打开的版本库"
+
+#: src/kdesvnview.cpp:257
+#, kde-format
+msgctxt "@title:window"
+msgid "Hotcopy a Repository"
+msgstr "热备份版本库"
+
+#: src/kdesvnview.cpp:275
+#, kde-format
+msgid "Hotcopy finished."
+msgstr "热备份完成。"
+
+#: src/kdesvnview.cpp:284
+#, kde-format
+msgctxt "@title:window"
+msgid "Load a Repository From an svndump"
+msgstr "从 svndump 加载版本库"
+
+#: src/kdesvnview.cpp:334
+#, kde-format
+msgctxt "@title:window"
+msgid "Load Dump"
+msgstr "加载转储"
+
+#: src/kdesvnview.cpp:334
+#, kde-format
+msgid "Loading a dump into a repository."
+msgstr "正在将转储加载到版本库中。"
+
+#: src/kdesvnview.cpp:336
+#, kde-format
+msgid "Loading dump finished."
+msgstr "转储加载完成。"
+
+#: src/kdesvnview.cpp:346
+#, kde-format
+msgctxt "@title:window"
+msgid "Dump a Repository"
+msgstr "转储版本库"
+
+#: src/kdesvnview.cpp:386
+#, kde-format
+msgctxt "@title:window"
+msgid "Dump"
+msgstr "转储"
+
+#: src/kdesvnview.cpp:386
+#, kde-format
+msgid "Dumping a repository"
+msgstr "转储版本库"
+
+#: src/kdesvnview.cpp:388
+#, kde-format
+msgid "Dump finished."
+msgstr "转储完成。"
+
+#: src/kdesvnview.cpp:433
+#, kde-format
+msgid "Inserted %v not cached log entries of %m."
+msgstr "已插入 %v 个未缓存的日志条目，共 %m 个。"
+
+#: src/kiosvn/kiolistener.cpp:71 src/kiosvn/kiosvn.cpp:768
+#, kde-format
+msgid "Wrong or missing log (may cancel pressed)."
+msgstr "错误或缺失的日志（可能按了取消键）。"
+
+#: src/kiosvn/kiolistener.cpp:102
+#, kde-format
+msgid "A (bin) %1"
+msgstr "A (二进制) %1"
+
+#: src/kiosvn/kiolistener.cpp:104 src/kiosvn/kiolistener.cpp:139
+#, kde-format
+msgid "A %1"
+msgstr "A %1"
+
+#: src/kiosvn/kiolistener.cpp:112 src/kiosvn/kiolistener.cpp:135
+#, kde-format
+msgid "D %1"
+msgstr "D %1"
+
+#: src/kiosvn/kiolistener.cpp:115
+#, kde-format
+msgid "Restored %1."
+msgstr "已恢复 %1。"
+
+#: src/kiosvn/kiolistener.cpp:118
+#, kde-format
+msgid "Reverted %1."
+msgstr "已还原 %1。"
+
+#: src/kiosvn/kiolistener.cpp:121
+#, kde-format
+msgid ""
+"Failed to revert %1.\n"
+"Try updating instead."
+msgstr ""
+"还原 %1 失败。\n"
+"请试着更新一下。"
+
+#: src/kiosvn/kiolistener.cpp:124
+#, kde-format
+msgid "Resolved conflicted state of %1."
+msgstr "解决了 %1 的冲突状态。"
+
+#: src/kiosvn/kiolistener.cpp:128
+#, kde-format
+msgid "Skipped missing target %1."
+msgstr "跳过缺失目标 %1。"
+
+#: src/kiosvn/kiolistener.cpp:130
+#, kde-format
+msgid "Skipped %1."
+msgstr "跳过 %1."
+
+#: src/kiosvn/kiolistener.cpp:180
+#, kde-format
+msgid "Finished at revision %1."
+msgstr "于修订版 %1 完成。"
+
+#: src/kiosvn/kiolistener.cpp:182
+#, kde-format
+msgid "Update finished."
+msgstr "更新已完成。"
+
+#: src/kiosvn/kiolistener.cpp:186
+#, kde-format
+msgid "Finished external at revision %1."
+msgstr "外部项在修订版 %1 处处理完成。"
+
+#: src/kiosvn/kiolistener.cpp:188
+#, kde-format
+msgid "Finished external."
+msgstr "外部项处理完成。"
+
+#: src/kiosvn/kiolistener.cpp:198
+#, kde-format
+msgid "Fetching external item into %1."
+msgstr "正在抓取外部项目到 %1 里。"
+
+#: src/kiosvn/kiolistener.cpp:202
+#, kde-format
+msgid "Status against revision: %1."
+msgstr "于修订版：%1 的状态。"
+
+#: src/kiosvn/kiolistener.cpp:206
+#, kde-format
+msgid "Performing status on external item at %1."
+msgstr "正在检查 %1 处外部项的状态。"
+
+#: src/kiosvn/kiolistener.cpp:209
+#, kde-format
+msgid "Sending %1."
+msgstr "发送 %1."
+
+#: src/kiosvn/kiolistener.cpp:213
+#, kde-format
+msgid "Adding (bin) %1."
+msgstr "正在添加（二进制）%1。"
+
+#: src/kiosvn/kiolistener.cpp:215
+#, kde-format
+msgid "Adding %1."
+msgstr "添加 %1."
+
+#: src/kiosvn/kiolistener.cpp:219
+#, kde-format
+msgid "Deleting %1."
+msgstr "删除 %1."
+
+#: src/kiosvn/kiolistener.cpp:222
+#, kde-format
+msgid "Replacing %1."
+msgstr "替换 %1."
+
+#: src/kiosvn/kiolistener.cpp:228
+#, kde-format
+msgid "Transmitting file data "
+msgstr "正在传送文件数据 "
+
+#: src/kiosvn/kiosvn.cpp:295 src/kiosvn/kiosvn.cpp:344
+#: src/kiosvn/kiosvn.cpp:484
+#, kde-format
+msgid "Can only write on HEAD revision."
+msgstr "只能在 HEAD 修订版进行写入。"
+
+#: src/kiosvn/kiosvn.cpp:331
+#, kde-format
+msgid "Renaming %1 to %2 successful"
+msgstr "重命名 %1 为 %2 成功"
+
+#: src/kiosvn/kiosvn.cpp:363
+#, kde-format
+msgid "Overwriting existing items is disabled in settings."
+msgstr "覆盖现有项目的操作已在设置里被禁用。"
+
+#: src/kiosvn/kiosvn.cpp:370
+#, kde-format
+msgid "Start checking out to temporary folder"
+msgstr "开始检出至临时文件夹"
+
+#: src/kiosvn/kiosvn.cpp:373
+#, kde-format
+msgid "Checking out %1"
+msgstr "正在检出 %1"
+
+#: src/kiosvn/kiosvn.cpp:381
+#, kde-format
+msgid "Temporary checkout done."
+msgstr "临时检出已完成。"
+
+#: src/kiosvn/kiosvn.cpp:385
+#, kde-format
+msgid "Could not write to existing item."
+msgstr "无法写入到现有的项目。"
+
+#: src/kiosvn/kiosvn.cpp:391
+#, kde-format
+msgid "Could not open temporary file"
+msgstr "无法打开临时文件"
+
+#: src/kiosvn/kiosvn.cpp:412
+#, kde-format
+msgid "Could not retrieve data for write."
+msgstr "无法获取写入用的数据。"
+
+#: src/kiosvn/kiosvn.cpp:419
+#, kde-format
+msgid "Committing %1"
+msgstr "正在提交 %1"
+
+#: src/kiosvn/kiosvn.cpp:441
+#, kde-format
+msgid "Wrote %1 to repository"
+msgstr "已将 %1 写入至版本库"
+
+#: src/kiosvn/kiosvn.cpp:469
+#, kde-format
+msgid "Copied %1 to %2"
+msgstr "已复制 %1 到 %2"
+
+#: src/kiosvn/kiosvn.cpp:788 src/svnfrontend/svnactions.cpp:1122
+#: src/svnfrontend/svnactions.cpp:2340
+#, kde-format
+msgid "Committed revision %1."
+msgstr "已提交修订版 %1。"
+
+#: src/kiosvn/kiosvn.cpp:790
+#, kde-format
+msgid "Nothing to commit."
+msgstr "没有要提交的东西。"
+
+#: src/kiosvn/kiosvn.cpp:837
+#, kde-format
+msgid "Empty logs"
+msgstr "空白日志"
+
+#: src/ksvnwidgets/authdialogwidget.cpp:34
+#, kde-format
+msgid "Store password (into KDE Wallet)"
+msgstr "保存密码（到 KDE 钱包里）"
+
+#: src/ksvnwidgets/authdialogwidget.cpp:35
+#, kde-format
+msgid "Store password (into Subversion' simple storage)"
+msgstr "保存密码（到 Subversion 的简单存储中）"
+
+#: src/ksvnwidgets/authdialogwidget.cpp:37
+#, kde-format
+msgid "Enter authentication info for %1"
+msgstr "输入 %1 的认证信息"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, AuthDialogWidget)
+#: src/ksvnwidgets/authdlg.ui:14
+#, kde-format
+msgid "Authentication"
+msgstr "认证"
+
+#. i18n: ectx: property (text), widget (QLabel, m_PasswordLabel)
+#: src/ksvnwidgets/authdlg.ui:32
+#, kde-format
+msgid "Password:"
+msgstr "密码："
+
+#. i18n: ectx: property (text), widget (QLabel, m_UsernameLabel)
+#: src/ksvnwidgets/authdlg.ui:52
+#, kde-format
+msgid "Username:"
+msgstr "用户名："
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CommitMessage)
+#: src/ksvnwidgets/commitmessage.ui:6
+#, kde-format
+msgid "Commit Message"
+msgstr "提交消息"
+
+#. i18n: ectx: property (text), widget (QLabel, m_Reviewlabel)
+#: src/ksvnwidgets/commitmessage.ui:27
+#, kde-format
+msgid "Review affected items"
+msgstr "审阅受影响的项目"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_SelectAllButton)
+#: src/ksvnwidgets/commitmessage.ui:63
+#, kde-format
+msgid "Select all"
+msgstr "全选"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_UnselectAllButton)
+#: src/ksvnwidgets/commitmessage.ui:70
+#, kde-format
+msgid "Unselect all"
+msgstr "取消全选"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_HideNewItems)
+#: src/ksvnwidgets/commitmessage.ui:77 src/ksvnwidgets/commitmsg_impl.cpp:457
+#, kde-format
+msgid "Hide new items"
+msgstr "隐藏新项目"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_MarkUnversioned)
+#: src/ksvnwidgets/commitmessage.ui:87
+#, kde-format
+msgid "Mark all new e.g. not versioned items for add and commit."
+msgstr "标记所有（如未版本化的）项目来添加或提交。"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_MarkUnversioned)
+#: src/ksvnwidgets/commitmessage.ui:90
+#, kde-format
+msgid "Select new items"
+msgstr "选择新项目"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_UnmarkUnversioned)
+#: src/ksvnwidgets/commitmessage.ui:97
+#, kde-format
+msgid "Unmark all unversioned items so they will be ignored."
+msgstr "取消标记所有未版本化的项目，让它们被忽略。"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_UnmarkUnversioned)
+#: src/ksvnwidgets/commitmessage.ui:100
+#, kde-format
+msgid "Unselect new items"
+msgstr "取消选择新项目"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_RevertItemButton)
+#: src/ksvnwidgets/commitmessage.ui:107
+#, kde-format
+msgid "Revert highlighted item"
+msgstr "还原高亮显示的项目"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_RevertItemButton)
+#: src/ksvnwidgets/commitmessage.ui:110
+#, kde-format
+msgid "Revert item"
+msgstr "还原项目"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_DiffItem)
+#: src/ksvnwidgets/commitmessage.ui:117
+#, kde-format
+msgid "Generates and display difference against repository of selected item"
+msgstr "生成并查看选择项目与版本库的差异"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_DiffItem)
+#: src/ksvnwidgets/commitmessage.ui:120
+#, kde-format
+msgid "Diff item"
+msgstr "比对项目差异"
+
+#. i18n: ectx: property (text), widget (QLabel, m_HeadLabel)
+#: src/ksvnwidgets/commitmessage.ui:152
+#, kde-format
+msgid "Enter a log message"
+msgstr "输入日志消息"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, m_LogHistory)
+#: src/ksvnwidgets/commitmessage.ui:184
+#, kde-format
+msgid "Last used log messages"
+msgstr "最近使用的日志消息"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LogLabel)
+#: src/ksvnwidgets/commitmessage.ui:199
+#, kde-format
+msgid "Or insert one of the last:"
+msgstr "或插入之前用过的其中一个："
+
+#. i18n: ectx: property (text), widget (QPushButton, m_insert_file_button)
+#: src/ksvnwidgets/commitmessage.ui:215
+#, kde-format
+msgid "Insert Text File..."
+msgstr "插入文本文件..."
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_keepLocksButton)
+#: src/ksvnwidgets/commitmessage.ui:226
+#, kde-format
+msgid "If checked commit will not release locks."
+msgstr "若勾选，提交时不会释放锁定。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_keepLocksButton)
+#: src/ksvnwidgets/commitmessage.ui:229
+#, kde-format
+msgid "Keep locks"
+msgstr "保留锁定"
+
+#: src/ksvnwidgets/commitmsg_impl.cpp:291
+#, kde-format
+msgctxt "@title:window"
+msgid "Commit Log"
+msgstr "提交日志"
+
+#: src/ksvnwidgets/commitmsg_impl.cpp:457
+#, kde-format
+msgid "Show new items"
+msgstr "显示新项目"
+
+#: src/ksvnwidgets/commitmsg_impl.cpp:480
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Text File to Insert"
+msgstr "选择要插入的文本文件"
+
+#: src/ksvnwidgets/commitmsg_impl.cpp:481
+#, kde-format
+msgid "Select text file to insert:"
+msgstr "选择要插入的文本文件："
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, DeleteForm)
+#: src/ksvnwidgets/deleteform.ui:14 src/svnfrontend/svnactions.cpp:1638
+#, kde-format
+msgid "Really delete these entries?"
+msgstr "确定要删除这些条目吗？"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_forceDelete)
+#: src/ksvnwidgets/deleteform.ui:23
+#, kde-format
+msgid "Force delete of changed items"
+msgstr "强制删除已变更的项目"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_keepLocal)
+#: src/ksvnwidgets/deleteform.ui:30
+#, kde-format
+msgid "Keep local copies"
+msgstr "保留本地副本"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, m_DepthCombo)
+#. i18n: ectx: property (statusTip), widget (QComboBox, m_DepthCombo)
+#: src/ksvnwidgets/depthselector.ui:29 src/ksvnwidgets/depthselector.ui:32
+#, kde-format
+msgid "Select depth of operation"
+msgstr "选择操作的深度"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, m_DepthCombo)
+#: src/ksvnwidgets/depthselector.ui:41
+#, kde-format
+msgid ""
+"<p ><b>Kind of depth</b>: </p>\n"
+"<p ><i>empty depth</i><br />\n"
+"Just the named directory, no entries. Updates will not pull in any files or "
+"subdirectories not already present. </p>\n"
+"<p><i>Files depth</i><br />Folder and its file children, but not subdirs. "
+"Updates will pull in any files not already present, but not subdirectories. "
+"</p>\n"
+"<p><i>Immediate depth</i><br />Folder and its entries. Updates will pull in "
+"any files or subdirectories not already present; those subdirectories "
+"entries will have depth-empty. </p>\n"
+"<p>\n"
+"<i>Infinity depth</i><br />Updates will pull in any files or subdirectories "
+"not already present; those subdirectories' this_dir entries will have depth-"
+"infinity.<br />Equivalent to the pre-1.5 default update behavior. </p>"
+msgstr ""
+"<p ><b>深度种类</b>：</p>\n"
+"<p ><i>空深度</i><br />\n"
+"仅提到的目录本身，无条目。更新不会拉下任何还不存在的文件或子目录。</p>\n"
+"<p><i>文件深度</i><br />文件夹和它的子文件，但不包含子目录。更新会拉下还不存"
+"在的文件，但还不存在的子文件夹则不会。</p>\n"
+"<p><i>直接深度</i><br />文件夹和它的条目。更新会拉下任何还"
+"不存在的文件或子目录，但这些子目录条目则会是空深度。</p>\n"
+"<p>\n"
+"<i>无限深度</i><br />更新会拉下所有还不存在的文件和子目录；这些子目录的 "
+"this_dir 条目也会是无限深度。<br />等同于 1.5 版之前的默认更新行为。</p>"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_DepthCombo)
+#: src/ksvnwidgets/depthselector.ui:45
+#, kde-format
+msgid "Empty Depth"
+msgstr "空深度"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_DepthCombo)
+#: src/ksvnwidgets/depthselector.ui:50
+#, kde-format
+msgid "Files Depth"
+msgstr "文件深度"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_DepthCombo)
+#: src/ksvnwidgets/depthselector.ui:55
+#, kde-format
+msgid "Immediate Depth"
+msgstr "直接深度"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_DepthCombo)
+#: src/ksvnwidgets/depthselector.ui:60
+#, kde-format
+msgid "Infinity Depth (recurse)"
+msgstr "无限深度（递归）"
+
+#: src/ksvnwidgets/diffbrowser.cpp:51
+#, kde-format
+msgid "Ctrl-F for search, F3 or Shift-F3 for search again."
+msgstr "Ctrl-F 来搜索，F3 或 Shift-F3 来重新搜索。"
+
+#: src/ksvnwidgets/diffbrowser.cpp:53
+#, kde-format
+msgid ""
+"<b>Display differences between files</b><p>You may search inside text with "
+"Ctrl-F.</p><p>F3 for search forward again, Shift-F3 for search backward "
+"again.</p><p>You may save the (original) output with Ctrl-S.</p>"
+msgstr ""
+"<b>查看文件之间的差异</b><p>您可以使用 Ctrl-F 在文本中进行搜索。</p><p>用 F3 "
+"往前再次搜索、Shift-F3 往后再次搜索。</p><p>您可以使用 Ctrl-S 保存（原本的）"
+"输出。</p>"
+
+#: src/ksvnwidgets/diffbrowser.cpp:89
+#, kde-format
+msgid "Save diff"
+msgstr "保存差异"
+
+#: src/ksvnwidgets/diffbrowser.cpp:89
+#, kde-format
+msgid "Patch file (*.diff *.patch)"
+msgstr "修补文件 (*.diff *.patch)"
+
+#: src/ksvnwidgets/diffbrowser.cpp:172
+#, kde-format
+msgid ""
+"End of document reached.\n"
+"Continue from the beginning?"
+msgstr ""
+"到达文档结尾。\n"
+"从开始处继续吗？"
+
+#: src/ksvnwidgets/diffbrowser.cpp:174 src/ksvnwidgets/diffbrowser.cpp:186
+#, kde-format
+msgid "Find"
+msgstr "查找"
+
+#: src/ksvnwidgets/diffbrowser.cpp:184
+#, kde-format
+msgid ""
+"Beginning of document reached.\n"
+"Continue from the end?"
+msgstr " 已到达文档开头。\n 从结尾继续吗？"
+
+#. i18n: ectx: property (text), widget (QLabel, m_Mainlabel)
+#: src/ksvnwidgets/encodingselector.ui:30
+#, kde-format
+msgid "Select encoding:"
+msgstr "选择编码："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_encodingList)
+#: src/ksvnwidgets/encodingselector.ui:44
+#, kde-format
+msgid "Default UTF-8"
+msgstr "默认 UTF-8"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_ChangedList)
+#: src/ksvnwidgets/models/commitmodel.cpp:191 src/svnfrontend/svnlogdlg.ui:158
+#, kde-format
+msgid "Action"
+msgstr "操作"
+
+#: src/ksvnwidgets/models/commitmodel.cpp:194
+#, kde-format
+msgid "Entry"
+msgstr "条目"
+
+#: src/ksvnwidgets/models/commitmodelhelper.cpp:35
+#: src/svnfrontend/maintreewidget.cpp:696
+#, kde-format
+msgid "Add"
+msgstr "添加"
+
+#: src/ksvnwidgets/models/commitmodelhelper.cpp:39
+#: src/svnfrontend/ccontextlistener.cpp:67
+#: src/svnfrontend/copymoveview_impl.cpp:50
+#: src/svnfrontend/maintreewidget.cpp:568
+#, kde-format
+msgid "Copy"
+msgstr "复制"
+
+#: src/ksvnwidgets/models/commitmodelhelper.cpp:43
+#: src/svnfrontend/ccontextlistener.cpp:68
+#: src/svnfrontend/maintreewidget.cpp:711
+#: src/svnfrontend/maintreewidget.cpp:720 src/svnfrontend/svnactions.cpp:1041
+#, kde-format
+msgid "Delete"
+msgstr "删除"
+
+#: src/ksvnwidgets/models/commitmodelhelper.cpp:47
+#, kde-format
+msgid "Modify (content or property)"
+msgstr "修改（内容或属性）"
+
+#: src/ksvnwidgets/models/commitmodelhelper.cpp:51
+#: src/svnfrontend/svnactions.cpp:799
+#, kde-format
+msgid "Replace"
+msgstr "替换"
+
+#: src/ksvnwidgets/models/commitmodelhelper.cpp:55
+#, kde-format
+msgid "(Un)Lock"
+msgstr "(解除)锁定"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, RevertForm)
+#: src/ksvnwidgets/revertform.ui:14
+#, kde-format
+msgid "Revert entries"
+msgstr "还原条目"
+
+#. i18n: ectx: property (text), widget (QLabel, m_headLine)
+#: src/ksvnwidgets/revertform.ui:20
+#, kde-format
+msgid "Really revert these entries to pristine state?"
+msgstr "确定要还原这些条目到原始状态吗？"
+
+#: src/ksvnwidgets/ssltrustprompt.cpp:33
+#, kde-format
+msgid "Accept permanently"
+msgstr "永久接受"
+
+#: src/ksvnwidgets/ssltrustprompt.cpp:34
+#, kde-format
+msgid "Accept temporarily"
+msgstr "暂时接受"
+
+#: src/ksvnwidgets/ssltrustprompt.cpp:35
+#, kde-format
+msgid "Reject"
+msgstr "拒绝"
+
+#: src/ksvnwidgets/ssltrustprompt.cpp:46
+#, kde-format
+msgid "Error validating server certificate for '%1'"
+msgstr "检验 '%1' 的服务器证书时出错"
+
+#: src/ksvnwidgets/ssltrustprompt.cpp:71
+#, kde-format
+msgid "Failure reasons"
+msgstr "失败原因"
+
+#: src/ksvnwidgets/ssltrustprompt.cpp:79
+#, kde-format
+msgid "Realm"
+msgstr "域"
+
+#: src/ksvnwidgets/ssltrustprompt.cpp:80
+#, kde-format
+msgid "Host"
+msgstr "主机"
+
+#: src/ksvnwidgets/ssltrustprompt.cpp:81
+#, kde-format
+msgid "Valid from"
+msgstr "生效日"
+
+#: src/ksvnwidgets/ssltrustprompt.cpp:82
+#, kde-format
+msgid "Valid until"
+msgstr "失效日"
+
+#: src/ksvnwidgets/ssltrustprompt.cpp:83
+#, kde-format
+msgid "Issuer name"
+msgstr "签发者名称"
+
+#: src/ksvnwidgets/ssltrustprompt.cpp:84
+#, kde-format
+msgid "Fingerprint"
+msgstr "指纹"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SslTrustPrompt)
+#: src/ksvnwidgets/ssltrustprompt.ui:14
+#, kde-format
+msgid "Trust SSL certificate"
+msgstr "信任 SSL 证书"
+
+#: src/main.cpp:38
+#, kde-format
+msgid "kdesvn"
+msgstr "kdesvn"
+
+#: src/main.cpp:40
+#, kde-format
+msgid "A Subversion Client by KDE (standalone application)"
+msgstr "来自 KDE 的 Subversion 客户端（独立应用程序）"
+
+#: src/main.cpp:42
+#, kde-format
+msgid ""
+"(C) 2005-2009 Rajko Albrecht,\n"
+"(C) 2015-2019 Christian Ehrlicher"
+msgstr ""
+"(C) 2005-2009 Rajko Albrecht,\n"
+"(C) 2015-2019 Christian Ehrlicher"
+
+#: src/main.cpp:43
+#, kde-format
+msgid "Rajko Albrecht"
+msgstr "Rajko Albrecht"
+
+#: src/main.cpp:44
+#, kde-format
+msgid "Christian Ehrlicher"
+msgstr "Christian Ehrlicher"
+
+#: src/main.cpp:49
+#, kde-format
+msgid "Execute single Subversion command on specific revision(-range)"
+msgstr "在特定修订版或修订版范围上执行一个 Subversion 命令"
+
+#: src/main.cpp:49
+#, kde-format
+msgid "startrev[:endrev]"
+msgstr "startrev[:endrev]"
+
+#: src/main.cpp:50
+#, kde-format
+msgid "Ask for revision when executing single command"
+msgstr "执行单一命令时询问修订版"
+
+#: src/main.cpp:51
+#, kde-format
+msgid "Force operation"
+msgstr "强制操作"
+
+#: src/main.cpp:52
+#, kde-format
+msgid "Save output of Subversion command (eg \"cat\") into file <file>"
+msgstr "将 Subversion 命令（例如 \"cat\"）的输出保存到文件 <文件>"
+
+#: src/main.cpp:52
+#, kde-format
+msgid "<file>"
+msgstr "<文件>"
+
+#: src/main.cpp:53
+#, kde-format
+msgid "Limit log output to <number>"
+msgstr "限制日志输出到 <数字>"
+
+#: src/main.cpp:53
+#, kde-format
+msgid "<number>"
+msgstr "<数字>"
+
+#: src/main.cpp:54
+#, kde-format
+msgid "Execute Subversion command (\"exec help\" for more information)"
+msgstr "执行 Subversion 命令（用 \"exec help\" 获取更多信息）"
+
+#: src/main.cpp:55
+#, kde-format
+msgid "Document to open"
+msgstr "要打开的文档"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_cmdline_show_logwindow)
+#: src/settings/cmdexecsettings.ui:11
+#, kde-format
+msgid "Show a small window containing the log after command executed"
+msgstr "命令执行后显示含有日志的小窗口"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_cmdline_show_logwindow)
+#: src/settings/cmdexecsettings.ui:14
+#, kde-format
+msgid "Show log after executing a command"
+msgstr "执行命令后显示日志"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: src/settings/cmdexecsettings.ui:23
+#, kde-format
+msgid "Minimum log lines to show:"
+msgstr "有多少行日志时才显示："
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_cmdline_log_minline)
+#: src/settings/cmdexecsettings.ui:33
+#, kde-format
+msgid ""
+"The minimum a log output must contain before kdesvn shows a single log window"
+msgstr "日志输出的行数超过这个值时 kdesvn 才会显示日志窗口"
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_cmdline_log_minline)
+#: src/settings/cmdexecsettings.ui:39
+#, kde-format
+msgctxt "no limit"
+msgid "No minimum"
+msgstr "无最小值"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_no_konqueror_contextmenu)
+#: src/settings/cmdexecsettings.ui:51
+#, kde-format
+msgid "If set, kdesvn will not show a menu inside \"Action\" menu of Konqueror"
+msgstr "若设置此选项，kdesvn 不会在 Konqueror 的“操作”菜单里显示一个菜单"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_no_konqueror_contextmenu)
+#: src/settings/cmdexecsettings.ui:54
+#, kde-format
+msgid "Do not display context menu in Konqueror"
+msgstr "不在 Konqueror 内显示上下文菜单"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_no_konqueror_toplevelmenu)
+#: src/settings/cmdexecsettings.ui:61
+#, kde-format
+msgid ""
+"If set, kdesvn will not show some extra actions inside \"Action\" menu of "
+"Konqueror/Dolphin"
+msgstr ""
+"若设置此选项，kdesvn 不会在 Konqueror/Dolphin 的“操作”菜单里显示一些额外动"
+"作"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_no_konqueror_toplevelmenu)
+#: src/settings/cmdexecsettings.ui:64
+#, kde-format
+msgid "Do not display entries in toplevel action menu"
+msgstr "不在顶层操作菜单显示条目"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_kio_use_standard_logmsg)
+#: src/settings/cmdexecsettings.ui:71
+#, kde-format
+msgid "KIO operations use standard log message"
+msgstr "KIO 操作使用标准日志消息"
+
+#. i18n: ectx: property (text), widget (QLabel, stdLogmsgLabel)
+#: src/settings/cmdexecsettings.ui:80
+#, kde-format
+msgid "Standard message:"
+msgstr "标准消息："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_kio_can_overwrite)
+#: src/settings/cmdexecsettings.ui:98
+#, kde-format
+msgid "Can KIO overwrite existing files?"
+msgstr "KIO 可以覆盖现存的文件吗？"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_kio_can_overwrite)
+#: src/settings/cmdexecsettings.ui:103
+#, kde-format
+msgid ""
+"If this flag is set, you will have a simple write support for existing "
+"items. E.g. you can open files in your editor and save them direct without "
+"checking out them before (kdesvn will do it in background).\n"
+"\n"
+"Use this only if you are sure what you are doing."
+msgstr ""
+"若设置这个标志，您会得到现有项目的简单写入支持。例如，您可以使用您的编辑器开"
+"启文件并且直接保存它们而不用先把它们检出（kdesvn 会在后台帮您检出）。\n"
+"\n"
+"请只在您知道自己在做什么的时候才使用这个选项。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_kio_can_overwrite)
+#: src/settings/cmdexecsettings.ui:106
+#, kde-format
+msgid "KIO can overwrite"
+msgstr "KIO 可以覆盖"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_display_dockmsg)
+#: src/settings/cmdexecsettings.ui:113
+#, kde-format
+msgid ""
+"If set KIO shows in KDE's Plasma detailed information about current operation"
+msgstr "若设置此选项，KIO 在 Plasma 会显示当前操作的详细信息"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_display_dockmsg)
+#: src/settings/cmdexecsettings.ui:117
+#, kde-format
+msgid ""
+"<p>If set, the kdesvn KIO shows detailed messages in KDE's Plasma control "
+"area.<br/>\n"
+"Error messages of KIO will always displayed and can <i>not</i> switched off."
+"</p>"
+msgstr ""
+"<p>若设置此选项，kdesvn KIO 会在 KDE Plasma 的控制区域显示详细消息。<br/>\n"
+"KIO 的错误消息不论如何都会显示而<i>不能</i>被关闭。</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_display_dockmsg)
+#: src/settings/cmdexecsettings.ui:120
+#, kde-format
+msgid "KIO shows progress messages"
+msgstr "KIO 显示进度消息"
+
+#: src/settings/cmdexecsettings_impl.cpp:27
+#, kde-format
+msgid " line(s)"
+msgstr " 行"
+
+#. i18n: ectx: label, entry, group (general_items)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_diff_ignore_content)
+#: src/settings/diffmergesettings.ui:11 src/settings/kdesvn_part.kcfg:29
+#, kde-format
+msgid "Diff ignores content type"
+msgstr "差异比对忽略内容类型"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_tree_diff_rec)
+#: src/settings/diffmergesettings.ui:18
+#: src/svnfrontend/graphtree/revgraphview.cpp:855
+#, kde-format
+msgid "Diff in revision tree is recursive"
+msgstr "修订版文件树差异比对是递归的"
+
+#. i18n: ectx: label, entry, group (general_items)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_diff_ignore_spaces)
+#: src/settings/diffmergesettings.ui:25 src/settings/kdesvn_part.kcfg:33
+#, kde-format
+msgid "Diff ignores white space changes"
+msgstr "差异比对忽略空白字符变更"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_diff_ignore_all_white_spaces)
+#: src/settings/diffmergesettings.ui:32
+#, kde-format
+msgid "Diff ignores all white spaces"
+msgstr "差异比对忽略所有空白字符"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_use_external_diff)
+#: src/settings/diffmergesettings.ui:39
+#, kde-format
+msgid ""
+"If kdesvn should use an external diff display and/or generator. If not "
+"checked use internal display."
+msgstr ""
+"控制 kdesvn 是否应使用一个外部差异查看器和/或生成器。若未勾选则使用内部查看。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_use_external_diff)
+#: src/settings/diffmergesettings.ui:42
+#, kde-format
+msgid "Use external diff display"
+msgstr "使用外部差异查看"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_extern_merge_default)
+#: src/settings/diffmergesettings.ui:49
+#, kde-format
+msgid ""
+"Set if merge with external program is preferred and not Subversion's merge"
+msgstr "如果优先使用外部程序进行合并，而非 Subversion 的合并，则请勾选"
+
+#. i18n: ectx: label, entry (extern_merge_default), group (diffmerge_items)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_extern_merge_default)
+#: src/settings/diffmergesettings.ui:52 src/settings/kdesvn_part.kcfg:158
+#, kde-format
+msgid "Prefer external merge program"
+msgstr "优先使用外部合并程序"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_diff_gitformat_default)
+#: src/settings/diffmergesettings.ui:59
+#, kde-format
+msgid "Use Git diff format"
+msgstr "使用 Git 的差异格式"
+
+#. i18n: ectx: label, entry, group (general_items)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_diff_copies_as_add)
+#: src/settings/diffmergesettings.ui:66 src/settings/kdesvn_part.kcfg:45
+#, kde-format
+msgid "Show copies as add"
+msgstr "将复制显示为添加"
+
+#. i18n: ectx: property (text), widget (QLabel, resolveLabel)
+#: src/settings/diffmergesettings.ui:77
+#, kde-format
+msgid "Conflict resolver program:"
+msgstr "冲突解决程序："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: src/settings/diffmergesettings.ui:90
+#, kde-format
+msgid "External merge program:"
+msgstr "外部合并程序："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_conflict_resolver)
+#: src/settings/diffmergesettings.ui:115
+#, kde-format
+msgid "Setup an external program for conflict resolving"
+msgstr "设置解决冲突用的外部程序"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_conflict_resolver)
+#: src/settings/diffmergesettings.ui:134
+#, no-c-format, kde-format
+msgid ""
+"<p>\n"
+"Enter how kdesvn should call the conflict resolver program. The form is\n"
+"<p align=\"center\">\n"
+"<b><tt>&lt;program&gt; &lt;programoptions&gt;</tt></b>\n"
+"</p>\n"
+"<p>\n"
+"Programoption may contain the place holders for substituting with "
+"filenames.\n"
+"</p>\n"
+"The substitutions means:<br>\n"
+"<b><tt>%o</tt></b> Old version<br>\n"
+"<b><tt>%m</tt></b> Mine or local edit version<br>\n"
+"<b><tt>%n</tt></b> Newest version<br>\n"
+"<b><tt>%t</tt></b> The target to save as, kdesvn will use the original file "
+"name for it.\n"
+"</p>\n"
+"<p>\n"
+"Default: <tt>kdiff3 %o %m %n -o %t</tt>\n"
+"</p>"
+msgstr " <p>\n 输入 kdesvn 调用冲突解决程序的方式，格式为\n <p align=\"center\">\n <b><tt>&lt;程序&gt; &lt;程序选项&gt;</tt></b>\n </p>\n <p>\n 程序选项中可包含会被替换为文件名的占位符。\n </p>\n 各占位符的含义：<br>\n <b><tt>%o</tt></b> 旧版本<br>\n <b><tt>%m</tt></b> 我的版本（即本地编辑的版本）<br>\n <b><tt>%n</tt></b> 最新版本<br>\n <b><tt>%t</tt></b> 保存目标，kdesvn 会使用原始文件名。\n </p>\n <p>\n 默认值：<tt>kdiff3 %o %m %n -o %t</tt>\n </p>"
+
+#. i18n: ectx: property (text), widget (QLabel, mdiff_display_label)
+#: src/settings/diffmergesettings.ui:141
+#, kde-format
+msgid "External diff display:"
+msgstr "外部差异查看："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_external_merge_program)
+#: src/settings/diffmergesettings.ui:154
+#, kde-format
+msgid "Setup an external program for merging"
+msgstr "设置合并用的外部程序"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_external_merge_program)
+#: src/settings/diffmergesettings.ui:166
+#, no-c-format, kde-format
+msgid ""
+"<p>\n"
+"Enter how kdesvn should call the external merge program. The form is\n"
+"<p align=\"center\">\n"
+"<b><tt>&lt;program&gt; &lt;programoptions&gt; %s1 %s2 %t</tt></b>\n"
+"</p>\n"
+"The substitutions means:<br>\n"
+"<b><tt>%s1</tt></b> Source one for merge<br>\n"
+"<b><tt>%s2</tt></b> Source two for merge, if it was not set equal to source "
+"one but other revision<br>\n"
+"<b><tt>%t</tt></b> Local target for merge.\n"
+"</p>"
+msgstr ""
+"<p>\n"
+"输入 kdesvn 应该如何调用外部合并程序。格式是：\n"
+"<p align=\"center\">\n"
+"<b><tt>&lt;程序&gt; &lt;程序选项&gt; %s1 %s2 %t</tt></b>\n"
+"</p>\n"
+"各替换符的意思：<br>\n"
+"<b><tt>%s1</tt></b> 要合并的来源 1<br>\n"
+"<b><tt>%s2</tt></b> 要合并的来源 2，如果它跟来源 1 不一样而是不同修订版的话"
+"<br>\n"
+"<b><tt>%t</tt></b> 本地合并目标。\n"
+"</p>"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_external_diff_display)
+#: src/settings/diffmergesettings.ui:191
+#, no-c-format, kde-format
+msgid ""
+"<p align=\"left\">\n"
+"Enter an external program in form\n"
+"<p align=\"center\">\n"
+"<tt>&lt;program&gt; &lt;param&gt; %f</tt>\n"
+"</p>\n"
+"or\n"
+"<p align=\"center\">\n"
+"<tt>&lt;program&gt; &lt;param&gt;</tt>\n"
+"</p>\n"
+"or\n"
+"<p align=\"center\">\n"
+"<tt>&lt;program&gt; &lt;param&gt; %s1 %s2</tt>\n"
+"</p>\n"
+"<br>\n"
+"If one between the first or the second form is used, svn itself generates "
+"the diff. %f will be replaced with a temporary filename. If %f is not "
+"given,\n"
+"the diff-display should be able to read data from stdin.\n"
+"<br>\n"
+"When %s1 and %s2 are given, kdesvn lets this display make the diff. For that "
+"it makes a temporary export or get (if needed) and fills out the parameters "
+"with the right values. %s1 will be filled with the content of the initial "
+"revision, %s2 with the final revision. On large recursive diffs this may get "
+"really slow.\n"
+"</p>"
+msgstr ""
+"<p align=\"left\">\n"
+"使用以下格式输入外部程序：\n"
+"<p align=\"center\">\n"
+"<tt>&lt;程序&gt; &lt;参数&gt; %f</tt>\n"
+"</p>\n"
+"或\n"
+"<p align=\"center\">\n"
+"<tt>&lt;程序&gt; &lt;参数&gt;</tt>\n"
+"</p>\n"
+"或\n"
+"<p align=\"center\">\n"
+"<tt>&lt;程序&gt; &lt;参数&gt; %s1 %s2</tt>\n"
+"</p>\n"
+"<br>\n"
+"如果使用第一个或第二个格式，生成差异的会是 svn 本身。%f 会被替换成一个临时文"
+"件案的名称。\n"
+"如果没有提供 %f，差异查看器应该要能够从标准输入读取数据。\n"
+"<br>\n"
+"当有提供 %s1 和 %s2 的时候，kdesvn 会让查看器来生成差异。它会创建临时导出或是"
+"（需要的话）获取并将正确数值填入参数。%s1 会被填入初始修订版的内容，而 %s2 则"
+"会填入最后修订版的内容。在进行大的递归差异比对时这可能会非常慢。\n"
+"</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, m_extern_hint)
+#: src/settings/diffmergesettings.ui:200
+#, kde-format
+msgid "see \"What's this\" for details"
+msgstr "参见“这是什么？”以获取详细信息"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DispColorSettings)
+#: src/settings/dispcolor_settings.ui:6
+#, kde-format
+msgid "ColorSettings"
+msgstr "颜色设置"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_colored_state)
+#: src/settings/dispcolor_settings.ui:14
+#, kde-format
+msgid "Mark changed and locked items colored"
+msgstr "以颜色标记已变更与已锁定项目"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: src/settings/dispcolor_settings.ui:56
+#, kde-format
+msgid "Locked items:"
+msgstr "已锁定项目："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: src/settings/dispcolor_settings.ui:76
+#, kde-format
+msgid "Not versioned items:"
+msgstr "未版本化的项目："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: src/settings/dispcolor_settings.ui:89
+#, kde-format
+msgid "Remote changed items:"
+msgstr "远程变更项目："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: src/settings/dispcolor_settings.ui:102
+#, kde-format
+msgid "Added items:"
+msgstr "已添加项目："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: src/settings/dispcolor_settings.ui:115
+#, kde-format
+msgid "Deleted items:"
+msgstr "已删除项目："
+
+#. i18n: ectx: property (text), widget (QLabel, Conflicted_items_label)
+#: src/settings/dispcolor_settings.ui:156
+#, kde-format
+msgid "Conflicted items:"
+msgstr "冲突项目："
+
+#. i18n: ectx: property (text), widget (QLabel, Missed_items_label)
+#: src/settings/dispcolor_settings.ui:169
+#, kde-format
+msgid "Missed items:"
+msgstr "缺失项目："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: src/settings/dispcolor_settings.ui:182
+#, kde-format
+msgid "Local changed items:"
+msgstr "本地修改的项目："
+
+#. i18n: ectx: property (text), widget (QLabel, Need_lock_label_2)
+#: src/settings/dispcolor_settings.ui:195
+#, kde-format
+msgid "Item needs lock:"
+msgstr "需要锁定项目："
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DisplaySettings)
+#: src/settings/display_settings.ui:6
+#, kde-format
+msgid "Settings"
+msgstr "设置"
+
+#. i18n: ectx: property (text), widget (QLabel, m_ListIconsSize_label)
+#: src/settings/display_settings.ui:14
+#, kde-format
+msgid "Size of Listviewicons"
+msgstr "列表视图图标大小"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_display_overlays)
+#: src/settings/display_settings.ui:24
+#, kde-format
+msgid "Mark Subversion states with an overlayed icon"
+msgstr "用覆盖图标标记 Subversion 状态"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_display_overlays)
+#: src/settings/display_settings.ui:30
+#, kde-format
+msgid ""
+"<p align=\"left\">\n"
+"Mark items with non-normal state with an overlayed icon. When you wish to\n"
+"see which items has newer items in repository you may have to set \"Check "
+"for updates on open\" in Subversion-Dialog.\n"
+"</p>"
+msgstr ""
+"<p align=\"left\">\n"
+"用一个覆盖图标来标记状态非正常的项目。\n"
+"当您希望看到哪些项目在版本库里有更新的项目时，您可能需要在 Subversion 对话框"
+"里设置“启动时检查更新”。\n"
+"</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_display_overlays)
+#: src/settings/display_settings.ui:33
+#, kde-format
+msgid "Mark item status with icon overlay"
+msgstr "用覆盖图标标记项目状态"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_case_sensitive_sort)
+#: src/settings/display_settings.ui:40
+#, kde-format
+msgid "Items sorting order is case sensitive"
+msgstr "项目排序区分大小写"
+
+#. i18n: ectx: property (text), widget (QLabel, m_MaxLogLabel)
+#: src/settings/display_settings.ui:47
+#, kde-format
+msgid "Maximum log messages in history:"
+msgstr "历史中日志消息的最大数量："
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_display_file_tips)
+#: src/settings/display_settings.ui:67
+#, kde-format
+msgid ""
+"Here you can control if, when moving the mouse over a file, you want to see "
+"a small popup window with additional information about that file"
+msgstr ""
+"您可以在这里控制是否当鼠标悬停在一个文件上时，要弹出一个小窗口供您查看文件的"
+"额外信息"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_display_file_tips)
+#: src/settings/display_settings.ui:70
+#, kde-format
+msgid "Show file info"
+msgstr "显示文件信息"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_colored_blame)
+#: src/settings/display_settings.ui:77
+#, kde-format
+msgid "Display colored annotate"
+msgstr "显示有颜色的标注"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_show_navigation_panel)
+#: src/settings/display_settings.ui:84
+#, kde-format
+msgid "Use navigation panel"
+msgstr "使用导航面板"
+
+#. i18n: ectx: label, entry, group (general_items)
+#: src/settings/kdesvn_part.kcfg:9
+#, kde-format
+msgid "Set if items sortorder should be case sensitive or not"
+msgstr "项目排序是否应该区分大小写"
+
+#. i18n: ectx: label, entry, group (general_items)
+#: src/settings/kdesvn_part.kcfg:13
+#, kde-format
+msgid "Size of the icons"
+msgstr "图标大小"
+
+#. i18n: ectx: label, entry, group (general_items)
+#: src/settings/kdesvn_part.kcfg:17
+#, kde-format
+msgid "Show file information in tooltip"
+msgstr "在工具提示中显示文件信息"
+
+#. i18n: ectx: label, entry, group (general_items)
+#: src/settings/kdesvn_part.kcfg:21
+#, kde-format
+msgid "Use an external program for diff viewing/generating"
+msgstr "使用外部程序查看/生成差异"
+
+#. i18n: ectx: label, entry, group (general_items)
+#: src/settings/kdesvn_part.kcfg:25
+#, kde-format
+msgid "Use external program for diff viewing"
+msgstr "使用外部程序查看差异"
+
+#. i18n: ectx: label, entry, group (general_items)
+#: src/settings/kdesvn_part.kcfg:37
+#, kde-format
+msgid "Diff ignores all white space"
+msgstr "差异比对忽略所有空白字符"
+
+#. i18n: ectx: label, entry, group (general_items)
+#: src/settings/kdesvn_part.kcfg:41
+#, kde-format
+msgid "Show diff in Git format"
+msgstr "以 Git 的格式显示差异"
+
+#. i18n: ectx: label, entry, group (general_items)
+#: src/settings/kdesvn_part.kcfg:49
+#, kde-format
+msgid "Maximum number of log messages"
+msgstr "日志消息的最大条数"
+
+#. i18n: ectx: label, entry, group (general_items)
+#: src/settings/kdesvn_part.kcfg:53
+#, kde-format
+msgid "Display colored blame lines"
+msgstr "显示彩色追溯行"
+
+#. i18n: ectx: label, entry, group (subversion)
+#: src/settings/kdesvn_part.kcfg:68
+#, kde-format
+msgid "Display icon overlays"
+msgstr "显示覆盖图标"
+
+#. i18n: ectx: label, entry, group (subversion)
+#: src/settings/kdesvn_part.kcfg:72
+#, kde-format
+msgid "Get item information recursively"
+msgstr "递归获取项目信息"
+
+#. i18n: ectx: label, entry, group (subversion)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_review_commit)
+#: src/settings/kdesvn_part.kcfg:76 src/settings/subversion_settings.ui:174
+#, kde-format
+msgid "Review items before commit"
+msgstr "提交前审阅项目"
+
+#. i18n: ectx: label, entry, group (subversion)
+#: src/settings/kdesvn_part.kcfg:88
+#, kde-format
+msgid "Hide versioned unchanged files"
+msgstr "隐藏已版本化但未修改的文件"
+
+#. i18n: ectx: label, entry, group (subversion)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_log_follows_nodes)
+#: src/settings/kdesvn_part.kcfg:92 src/settings/subversion_settings.ui:145
+#, kde-format
+msgid "Log follows node changes"
+msgstr "日志跟随节点变更"
+
+#. i18n: ectx: label, entry, group (subversion)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_log_always_list_changed_files)
+#: src/settings/kdesvn_part.kcfg:96 src/settings/subversion_settings.ui:161
+#, kde-format
+msgid "Log always reads list of changed files"
+msgstr "日志总是读取变更文件列表"
+
+#. i18n: ectx: label, entry, group (subversion)
+#: src/settings/kdesvn_part.kcfg:100
+#, kde-format
+msgid "Start check for updates when open working copy"
+msgstr "打开工作副本时开始检查更新"
+
+#. i18n: ectx: label, entry, group (subversion)
+#: src/settings/kdesvn_part.kcfg:104
+#, kde-format
+msgid "Start caching latest logs on open or commit"
+msgstr "启动或提交时开始将最新日志加入缓存"
+
+#. i18n: ectx: label, entry, group (subversion)
+#: src/settings/kdesvn_part.kcfg:108
+#, kde-format
+msgid "Get detailed information when making a remote listing"
+msgstr "列出远程信息时获取详细信息"
+
+#. i18n: ectx: label, entry, group (subversion)
+#: src/settings/kdesvn_part.kcfg:112
+#, kde-format
+msgid "Get properties on selected item on networked protocols"
+msgstr "使用联网协议时获取已选项目属性"
+
+#. i18n: ectx: label, entry, group (subversion)
+#: src/settings/kdesvn_part.kcfg:116
+#, kde-format
+msgid "Use properties like bugtraq:url on repository listings"
+msgstr "在版本库列表使用例如 bugtraq:url 的属性"
+
+#. i18n: ectx: label, entry, group (subversion)
+#: src/settings/kdesvn_part.kcfg:120
+#, kde-format
+msgid "Check for property svn:needs-lock on listings"
+msgstr "列出时检查 svn:needs-lock（需要锁定）属性"
+
+#. i18n: ectx: label, entry, group (subversion)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_store_passwords)
+#: src/settings/kdesvn_part.kcfg:124 src/settings/subversion_settings.ui:107
+#, kde-format
+msgid "Store passwords for remote connections"
+msgstr "为远程连接保存密码"
+
+#. i18n: ectx: label, entry, group (subversion)
+#: src/settings/kdesvn_part.kcfg:128
+#, kde-format
+msgid "Store passwords in KDE Wallet instead of Subversion' storage"
+msgstr "将密码保存到 KDE 钱包而非 Subversion 的存储中"
+
+#. i18n: ectx: label, entry, group (subversion)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_use_password_cache)
+#: src/settings/kdesvn_part.kcfg:132 src/settings/subversion_settings.ui:138
+#, kde-format
+msgid "Use internal password cache"
+msgstr "使用内部密码缓存"
+
+#. i18n: ectx: label, entry, group (subversion)
+#: src/settings/kdesvn_part.kcfg:136
+#, kde-format
+msgid "Is networking enabled"
+msgstr "是否启用了网络"
+
+#. i18n: ectx: label, entry, group (subversion)
+#: src/settings/kdesvn_part.kcfg:140
+#, kde-format
+msgid "Local add results in modification instead of conflicts"
+msgstr "本地添加会修改而非产生冲突"
+
+#. i18n: ectx: label, entry, group (subversion)
+#: src/settings/kdesvn_part.kcfg:144
+#, kde-format
+msgid "create any non-existent parent at depth=empty"
+msgstr "用 depth=empty（深度为空）创建不存在的父目录"
+
+#. i18n: ectx: label, entry, group (diffmerge_items)
+#: src/settings/kdesvn_part.kcfg:150
+#, kde-format
+msgid "Which program to use for external merges"
+msgstr "用于外部合并的程序"
+
+#. i18n: ectx: label, entry, group (diffmerge_items)
+#: src/settings/kdesvn_part.kcfg:154
+#, kde-format
+msgid "Which program for resolving conflicts"
+msgstr "用哪个程序来解决冲突"
+
+#. i18n: ectx: label, entry, group (display)
+#: src/settings/kdesvn_part.kcfg:164
+#, kde-format
+msgid "Display other than normal states colored"
+msgstr "以颜色标记非正常的状态"
+
+#. i18n: ectx: label, entry, group (blame_dlg)
+#: src/settings/kdesvn_part.kcfg:197
+#, kde-format
+msgid "Locale for blame display"
+msgstr "追溯显示所用的语言环境"
+
+#. i18n: ectx: label, entry, group (revision_tree)
+#: src/settings/kdesvn_part.kcfg:209
+#, kde-format
+msgid "Check status of log cache when starting revision tree"
+msgstr "启动修订版文件树时检查日志缓存状态"
+
+#. i18n: ectx: label, entry, group (revision_tree)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/settings/kdesvn_part.kcfg:213 src/settings/revisiontree_settings.ui:129
+#, kde-format
+msgid "Direction of revision tree"
+msgstr "修订版文件树方向"
+
+#. i18n: ectx: label, entry, group (revision_tree)
+#: src/settings/kdesvn_part.kcfg:217
+#, kde-format
+msgid "Color for added items"
+msgstr "已添加项目的颜色"
+
+#. i18n: ectx: label, entry, group (revision_tree)
+#: src/settings/kdesvn_part.kcfg:221
+#, kde-format
+msgid "Color for deleted items"
+msgstr "已删除项目的颜色"
+
+#. i18n: ectx: label, entry, group (revision_tree)
+#: src/settings/kdesvn_part.kcfg:225
+#, kde-format
+msgid "Color for copied items"
+msgstr "已复制项目的颜色"
+
+#. i18n: ectx: label, entry, group (revision_tree)
+#: src/settings/kdesvn_part.kcfg:229
+#, kde-format
+msgid "Color for renamed items"
+msgstr "已重命名项目的颜色"
+
+#. i18n: ectx: label, entry, group (revision_tree)
+#: src/settings/kdesvn_part.kcfg:233
+#, kde-format
+msgid "Color for modified items"
+msgstr "已修改项目的颜色"
+
+#. i18n: ectx: label, entry, group (revision_tree)
+#: src/settings/kdesvn_part.kcfg:237
+#, kde-format
+msgid "Height of detail view in tree widget"
+msgstr "树状图组件中详细视图的高度"
+
+#. i18n: ectx: label, entry, group (revision_tree)
+#: src/settings/kdesvn_part.kcfg:241
+#, kde-format
+msgid "Diffs from revision tree are recursive"
+msgstr "修订版文件树差异比对是递归的"
+
+#. i18n: ectx: label, entry, group (cmdline)
+#: src/settings/kdesvn_part.kcfg:247
+#, kde-format
+msgid "Should Konqueror not display context menus for kdesvn?"
+msgstr "Konqueror 是否不该为 kdesvn 显示上下文菜单？"
+
+#. i18n: ectx: label, entry, group (cmdline)
+#: src/settings/kdesvn_part.kcfg:251
+#, kde-format
+msgid "Should Konqueror not display kdesvn entries in main action menu?"
+msgstr "Konqueror 是否不该在主操作菜单内显示 kdesvn 项目？"
+
+#. i18n: ectx: label, entry, group (cmdline)
+#: src/settings/kdesvn_part.kcfg:255
+#, kde-format
+msgid "Show a small log window after executing a command."
+msgstr "执行命令后显示一个小日志窗口。"
+
+#. i18n: ectx: label, entry, group (cmdline)
+#: src/settings/kdesvn_part.kcfg:259
+#, kde-format
+msgid "Log must contain at least lines to show"
+msgstr "日志必须包含要显示的行"
+
+#. i18n: ectx: label, entry, group (cmdline)
+#: src/settings/kdesvn_part.kcfg:263
+#, kde-format
+msgid "KIO::svn operations use a standard log message"
+msgstr "KIO::svn 操作使用标准日志消息"
+
+#. i18n: ectx: label, entry, group (cmdline)
+#: src/settings/kdesvn_part.kcfg:267
+#, kde-format
+msgid "The standard log message to use with KIO if not asking for it."
+msgstr "没有问的时候要为 KIO 使用的标准日志消息。"
+
+#. i18n: ectx: label, entry, group (cmdline)
+#: src/settings/kdesvn_part.kcfg:271
+#, kde-format
+msgid "Support overwrite for KIO module"
+msgstr "为 KIO 模块支持覆盖"
+
+#. i18n: ectx: label, entry, group (cmdline)
+#: src/settings/kdesvn_part.kcfg:275
+#, kde-format
+msgid "Print progress messages in KDE dock area"
+msgstr "将进度消息印至 KDE dock 区域"
+
+#. i18n: ectx: whatsthis, entry, group (internals)
+#: src/settings/kdesvn_part.kcfg:294
+#, kde-format
+msgid ""
+"This value holds for log dialog which kind of log is used, it is internal "
+"only."
+msgstr "这个值为日志对话框记住使用了哪一种日志，它仅供内部使用。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_poll_modified)
+#: src/settings/polling_settings.ui:11
+#, kde-format
+msgid "Check modified items every"
+msgstr "已修改项目检查频率："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/settings/polling_settings.ui:28 src/settings/polling_settings.ui:55
+#, kde-format
+msgid "minutes"
+msgstr "分钟"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_poll_updates)
+#: src/settings/polling_settings.ui:35
+#, kde-format
+msgid ""
+"If set check for updates on working copy when network is enabled on regular "
+"base"
+msgstr "若设置此选项，网络连接时每隔一段时间就检查一次工作副本的更新"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_poll_updates)
+#: src/settings/polling_settings.ui:38
+#, kde-format
+msgid "Check for updated items every"
+msgstr "已更新项目检查频率："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_tree_direction)
+#: src/settings/revisiontree_settings.ui:28
+#, kde-format
+msgid "Left to right"
+msgstr "从左到右"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_tree_direction)
+#: src/settings/revisiontree_settings.ui:33
+#, kde-format
+msgid "Bottom to top"
+msgstr "从下到上"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_tree_direction)
+#: src/settings/revisiontree_settings.ui:38
+#, kde-format
+msgid "Right to left"
+msgstr "从右到左"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_tree_direction)
+#: src/settings/revisiontree_settings.ui:43
+#, kde-format
+msgid "Top to bottom"
+msgstr "从上到下"
+
+#. i18n: ectx: property (text), widget (QLabel, m_AddColorLabel)
+#: src/settings/revisiontree_settings.ui:51
+#, kde-format
+msgid "Color for added items:"
+msgstr "已添加项目的颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: src/settings/revisiontree_settings.ui:77
+#, kde-format
+msgid "Color for copied items:"
+msgstr "已复制项目的颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: src/settings/revisiontree_settings.ui:90
+#, kde-format
+msgid "Color for renamed items:"
+msgstr "已重命名项目的颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: src/settings/revisiontree_settings.ui:103
+#, kde-format
+msgid "Color for modified items:"
+msgstr "已修改项目的颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: src/settings/revisiontree_settings.ui:136
+#, kde-format
+msgid "Color for deleted items:"
+msgstr "已删除项目的颜色："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_fill_cache_on_tree)
+#: src/settings/revisiontree_settings.ui:175
+#, kde-format
+msgid "Should kdesvn check content of log cache before starting the tree"
+msgstr "开始树状图前 kdesvn 是否应检查日志缓存内容"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_fill_cache_on_tree)
+#: src/settings/revisiontree_settings.ui:180
+#, kde-format
+msgid ""
+"When starting the tree generation and reading data from log cache kdesvn may "
+"check for newer items in repository if network is enabled. \n"
+"\n"
+"But this may slow down tree generation so it is disabled by default."
+msgstr ""
+"开始生成树状图并从日志缓存读取数据时 kdesvn 可能会视网络是否启用而检查版本库"
+"里是否有新项目。\n"
+"\n"
+"但这可能会使树状图的生成过程变慢，因此默认是禁用的。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_fill_cache_on_tree)
+#: src/settings/revisiontree_settings.ui:183
+#, kde-format
+msgid "Check log cache fill before reading tree"
+msgstr "读取文件树前检查日志缓存是否填入"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_start_updates_check_on_open)
+#: src/settings/subversion_settings.ui:14
+#, kde-format
+msgid "Select if kdesvn should check for updates when open a working copy"
+msgstr "选择 kdesvn 是否应在打开工作副本时检查更新"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_start_updates_check_on_open)
+#: src/settings/subversion_settings.ui:17
+#, kde-format
+msgid "Start check for updates when open a working copy"
+msgstr "打开工作副本时开始检查更新"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_log_cache_on_open)
+#: src/settings/subversion_settings.ui:33
+#, kde-format
+msgid "Start refreshing the log cache for repository when networking enabled"
+msgstr "网络连接时开始刷新日志缓存"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_log_cache_on_open)
+#: src/settings/subversion_settings.ui:36
+#, kde-format
+msgid "Start fill log cache on open"
+msgstr "启动时开始填入日志缓存"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_check_needslock)
+#: src/settings/subversion_settings.ui:43
+#, kde-format
+msgid "When listing on working copies kdesvn may check for this property"
+msgstr "在工作副本上制作列表时 kdesvn 可以检查这个属性"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_check_needslock)
+#: src/settings/subversion_settings.ui:46
+#, kde-format
+msgid ""
+"When listing on working copies kdesvn may check for <tt>svn:needs-lock</tt> "
+"property.<br>However, on folders containing lots of items this listing/"
+"updating may get slow. Therefore, you should only switch on if you have "
+"repositories containing many such entries."
+msgstr ""
+"在工作副本上制作列表时 kdesvn 可以检查 <tt>svn:needs-lock</tt> 这个属性。<br>"
+"但这会使含有很多项目的文件夹的枚举和更新变慢。请只在有含有很多有这个需要的项"
+"目的版本库上启用。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_check_needslock)
+#: src/settings/subversion_settings.ui:49
+#, kde-format
+msgid "Check if items have \"svn:needs-lock\" property set"
+msgstr "检查项目是否有设置 \"svn:needs-lock\"（需要锁定）属性"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_details_on_remote_listing)
+#: src/settings/subversion_settings.ui:56
+#, kde-format
+msgid ""
+"Whether to retrieve details about items when making listing on repositories"
+msgstr "列出版本库信息时是否获取项目详细信息"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_details_on_remote_listing)
+#: src/settings/subversion_settings.ui:61
+#, kde-format
+msgid ""
+"<p align=\"left\">When checked, kdesvn fetches more detailed info about file "
+"items when making a listing to remote repositories so that you may see "
+"remote locks in overview.\n"
+"</p>\n"
+"<p align=\"left\"><i>Be careful: This may let listings become REAL slow.</"
+"i></p>"
+msgstr ""
+"<p align=\"left\">勾选时，kdesvn 会在列出远程版本库内容时获取更详细的信息，这"
+"样您在概览才能看到远程锁定。\n"
+"</p>\n"
+"<p align=\"left\"><i>请小心：这可能让列表变得非常慢。</i></p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_details_on_remote_listing)
+#: src/settings/subversion_settings.ui:64
+#, kde-format
+msgid "Get file details while remote listing"
+msgstr "列出远程信息时获取文件详细信息"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_info_recursive)
+#: src/settings/subversion_settings.ui:74
+#, kde-format
+msgid "Get item info recursively"
+msgstr "递归获取项目信息"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_properties_on_remote_items)
+#: src/settings/subversion_settings.ui:84
+#, kde-format
+msgid "Should kdesvn retrieve properties on selected item in repositories"
+msgstr "kdesvn 是否应该获取版本库内已选项目的属性"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_properties_on_remote_items)
+#: src/settings/subversion_settings.ui:88
+#, kde-format
+msgid ""
+"When browsing, kdesvn may try displaying properties below itemlist from a "
+"selected item. \n"
+"On networked repositories (e.g., not opened via file:// protocol) this may "
+"get very slow. Thus, if you have slow network connections or when browsing "
+"hangs often you should deactivate it."
+msgstr " 浏览时，kdesvn 可能会尝试在项目列表下方显示所选项目的属性。\n 对于联网版本库（即不是通过 file:// 协议打开的），这可能会非常慢。因此，如果您的网络连接较慢或浏览时经常卡住，应当禁用此选项。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_properties_on_remote_items)
+#: src/settings/subversion_settings.ui:91
+#, kde-format
+msgid "Always get properties on networked repositories"
+msgstr "在联网版本库中总是获取属性"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_store_passwords)
+#: src/settings/subversion_settings.ui:101
+#, kde-format
+msgid "Should Subversion store passwords by default"
+msgstr "Subversion 是否应默认保存密码"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_store_passwords)
+#: src/settings/subversion_settings.ui:104
+#, kde-format
+msgid ""
+"Storing passwords is often a security problem. Kdesvn itself does not store "
+"any passwords, but the Subversion itself inside the configuration area of "
+"Subversion. If this area is readable from others you should not set it, but "
+"you may select for single non critical accounts inside the authentication "
+"dialog."
+msgstr ""
+"保存密码常是一个安全性问题。Kdesvn 本身并不保存任何密码，保存密码的是 "
+"Subversion 本身（在它的配置区域里）。如果这个区域可以被其他人读取则您不应该设"
+"定这个选项，但您可以选择给认证对话框里单一的非关键帐号。"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_passwords_in_wallet)
+#: src/settings/subversion_settings.ui:117
+#, kde-format
+msgid ""
+"When saving passwords, do it into KDE Wallet instead of Subversions storage?"
+msgstr "保存密码时，是存入 KDE 钱包还是 Subversion 的存储？"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_passwords_in_wallet)
+#: src/settings/subversion_settings.ui:122
+#, kde-format
+msgid ""
+"<p>Tells if your passwords set in kdesvn should stored into KDE Wallet "
+"instead of simple clear text storage of Subversion.</p>\n"
+"<p>This would be a little bit more secure because KDE Wallet is (mostly) "
+"encrypted with a password. On other hand you must re-enter your passwords "
+"with other Subversion clients not accessing KDE wallet (e.g. svn command "
+"line itself, rapidsvn and so on).</p>\n"
+"<p>If you are HOME storage e.g. Subversion's config folder is on a network "
+"drive you should hard think about not storing passwords in a plain text file "
+"like Subversion does but put it into an encrypted storage like KDE Wallet or "
+"do not save passwords.</p>"
+msgstr ""
+"<p>这会设置您在 kdesvn 设置的密码是否应该保存在 KDE 钱包，而不是 Subversion "
+"的简易纯文本保存方式。</p>\n"
+"<p>这会稍微比较安全，因为 KDE 钱包（通常）有用密码再加以加密。这也代表在使用"
+"不访问 KDE 钱包的 Subversion 客户端（例如 svn 本身的命令行界面或是 rapidsvn "
+"等等）时您将会需要重新输入密码。</p>\n"
+"<p>如果您的家目录存储空间在网络磁盘上（也就是说 Subversion 的配置文件也在网络磁"
+"碟上）则强烈建议您不要把密码像 Subversion 一样存在纯文本文件里，而应该将其放"
+"在像 KDE 钱包一样的加密存储空间，或者是不要保存密码。</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_passwords_in_wallet)
+#: src/settings/subversion_settings.ui:125
+#, kde-format
+msgid "Store passwords into KDE Wallet"
+msgstr "保存密码到 KDE 钱包里"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_use_password_cache)
+#: src/settings/subversion_settings.ui:135
+#, kde-format
+msgid "Use an internal password cache"
+msgstr "使用内部密码缓存"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_log_always_list_changed_files)
+#: src/settings/subversion_settings.ui:155
+#, kde-format
+msgid "Read detailed change lists"
+msgstr "读取详细变更列表"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_log_always_list_changed_files)
+#: src/settings/subversion_settings.ui:158
+#, kde-format
+msgid ""
+"Reading lists of changed files may sometimes a little bit slow down things. "
+"But if this feature is switched off, kdesvn may fail generating differences "
+"between node changes from within the log viewer."
+msgstr ""
+"读取变更文件列表有的时候可能会稍微比较慢。但若关闭此功能，kdesvn 有时会无法从"
+"日志查看器生成节点变更之间的差异。"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_review_commit)
+#: src/settings/subversion_settings.ui:171
+#, kde-format
+msgid "List items next commit will send or not"
+msgstr "列出下次提交会发送或不发送的项目"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_commit_hide_new)
+#: src/settings/subversion_settings.ui:184
+#, kde-format
+msgid "Should unversioned items be displayed in commit dialog or not."
+msgstr "未版本化的项目是否应该要在提交对话框中显示。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_commit_hide_new)
+#: src/settings/subversion_settings.ui:187
+#, kde-format
+msgid "Hide new items in commit box"
+msgstr "在提交对话框里隐藏新项目"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_update_add_as_modification)
+#: src/settings/subversion_settings.ui:197
+#, kde-format
+msgid ""
+"<html><head/><body><p>If set, a local addition at the same path as an "
+"incoming addition of the same node kind results in a normal node with a "
+"possible local modification, instead of a tree conflict.</p></body></html>"
+msgstr ""
+"<html><head/><body><p>若设置此选项，本地的添加项目和即将进来的添加项目路径与"
+"节点类别相同时，将会变成或许有本地变更的一个普通节点，而非树状冲突。</p></"
+"body></html>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_update_add_as_modification)
+#: src/settings/subversion_settings.ui:200
+#, kde-format
+msgid "Update modifies instead of creating conflicts"
+msgstr "更新会修改而非产生冲突"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_update_make_parents)
+#: src/settings/subversion_settings.ui:207
+#, kde-format
+msgid ""
+"<html><head/><body><p>If set, create any non-existent parent directories "
+"also by checking them out at depth=empty</p></body></html>"
+msgstr ""
+"<html><head/><body><p>若设置此选项，将会同时创建不存在的父目录（借由将它们以"
+"空深度 (depth=empty) 检出的方式）</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_update_make_parents)
+#: src/settings/subversion_settings.ui:210
+#, kde-format
+msgid "Update makes missing parents"
+msgstr "更新会创建缺失的父目录"
+
+#: src/svnfrontend/background/fillcachethread.cpp:76
+#, kde-format
+msgid ""
+"Not filling log cache because it is disabled due setting for this repository."
+msgstr "由于此版本库的设置中已禁用而不填入日志缓存。"
+
+#: src/svnfrontend/background/fillcachethread.cpp:78
+#, kde-format
+msgid "Filling log cache in background."
+msgstr "正在后台填入日志缓存。"
+
+#: src/svnfrontend/background/fillcachethread.cpp:100
+#, kde-format
+msgid "Filling cache canceled."
+msgstr "已取消填入缓存。"
+
+#: src/svnfrontend/background/fillcachethread.cpp:115
+#, kde-format
+msgid "Cache filled up to revision %1."
+msgstr "缓存已填入至修订版 %1。"
+
+#: src/svnfrontend/background/fillcachethread.cpp:122
+#, kde-format
+msgid "Filling log cache in background finished."
+msgstr "已在后台完成填入日志缓存。"
+
+#: src/svnfrontend/background/tcontextlistener.cpp:182
+#, kde-format
+msgid "%1 of %2 transferred."
+msgstr "已传输 %1，共 %2。"
+
+#: src/svnfrontend/background/tcontextlistener.cpp:184
+#: src/svnfrontend/stopdlg.cpp:198
+#, kde-format
+msgid "%1 transferred."
+msgstr "已传输 %1。"
+
+#: src/svnfrontend/blamedisplay.cpp:184 src/svnfrontend/blamedisplay.cpp:194
+#, kde-format
+msgid "Log message for revision"
+msgstr "修订版的日志消息"
+
+#: src/svnfrontend/blamedisplay.cpp:188
+#, kde-format
+msgid "Go to line"
+msgstr "转到行"
+
+#: src/svnfrontend/blamedisplay.cpp:320
+#, kde-format
+msgid "Show line"
+msgstr "显示行"
+
+#: src/svnfrontend/blamedisplay.cpp:320
+#, kde-format
+msgid "Show line number"
+msgstr "显示行号"
+
+#: src/svnfrontend/blamedisplay.cpp:356
+#, kde-format
+msgctxt "@title:window"
+msgid "Log Message for Revision %1"
+msgstr "修订版 %1 的日志消息"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_BlameTree)
+#: src/svnfrontend/blamedisplay.ui:40
+#, kde-format
+msgid "Line"
+msgstr "行"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_BlameTree)
+#: src/svnfrontend/blamedisplay.ui:45
+#: src/svnfrontend/models/logitemmodel.cpp:173
+#, kde-format
+msgid "Revision"
+msgstr "修订版"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_BlameTree)
+#. i18n: ectx: property (text), widget (QRadioButton, m_startDateButton)
+#. i18n: ectx: property (text), widget (QRadioButton, m_stopDateButton)
+#: src/svnfrontend/blamedisplay.ui:50
+#: src/svnfrontend/fronthelpers/rangeinput.ui:46
+#: src/svnfrontend/fronthelpers/rangeinput.ui:130
+#: src/svnfrontend/models/logitemmodel.cpp:177
+#, kde-format
+msgid "Date"
+msgstr "日期"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_BlameTree)
+#: src/svnfrontend/blamedisplay.ui:55
+#: src/svnfrontend/models/logitemmodel.cpp:175
+#, kde-format
+msgid "Author"
+msgstr "作者"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_BlameTree)
+#: src/svnfrontend/blamedisplay.ui:60
+#, kde-format
+msgid "Content"
+msgstr "内容"
+
+#: src/svnfrontend/ccontextlistener.cpp:66
+#, kde-format
+msgid "Add to revision control"
+msgstr "添加到版本控制"
+
+#: src/svnfrontend/ccontextlistener.cpp:69
+#, kde-format
+msgid "Restore missing"
+msgstr "恢复缺失的"
+
+#: src/svnfrontend/ccontextlistener.cpp:70
+#, kde-format
+msgid "Revert"
+msgstr "还原"
+
+#: src/svnfrontend/ccontextlistener.cpp:71
+#, kde-format
+msgid "Revert failed"
+msgstr "还原失败"
+
+#: src/svnfrontend/ccontextlistener.cpp:72
+#, kde-format
+msgid "Resolved"
+msgstr "已解决"
+
+#: src/svnfrontend/ccontextlistener.cpp:73
+#, kde-format
+msgid "Skip"
+msgstr "跳过"
+
+#: src/svnfrontend/ccontextlistener.cpp:74 src/svnfrontend/svnitem.cpp:430
+#, kde-format
+msgid "Deleted"
+msgstr "已删除"
+
+#: src/svnfrontend/ccontextlistener.cpp:75
+#, kde-format
+msgid "Added"
+msgstr "已添加"
+
+#: src/svnfrontend/ccontextlistener.cpp:76
+#, kde-format
+msgid "Update"
+msgstr "更新"
+
+#: src/svnfrontend/ccontextlistener.cpp:77
+#, kde-format
+msgid "Update complete"
+msgstr "更新完成"
+
+#: src/svnfrontend/ccontextlistener.cpp:78
+#, kde-format
+msgid "Update external module"
+msgstr "更新外部模块"
+
+#: src/svnfrontend/ccontextlistener.cpp:80
+#, kde-format
+msgid "Status on external"
+msgstr "外部的状态"
+
+#: src/svnfrontend/ccontextlistener.cpp:81
+#, kde-format
+msgid "Commit Modified"
+msgstr "提交已修改项目"
+
+#: src/svnfrontend/ccontextlistener.cpp:82
+#, kde-format
+msgid "Commit Added"
+msgstr "提交已添加项目"
+
+#: src/svnfrontend/ccontextlistener.cpp:83
+#, kde-format
+msgid "Commit Deleted"
+msgstr "提交已删除项目"
+
+#: src/svnfrontend/ccontextlistener.cpp:84
+#, kde-format
+msgid "Commit Replaced"
+msgstr "提交已替换项目"
+
+#: src/svnfrontend/ccontextlistener.cpp:87
+#, kde-format
+msgid "Locking"
+msgstr "锁定中"
+
+#: src/svnfrontend/ccontextlistener.cpp:88
+#, kde-format
+msgid "Unlocked"
+msgstr "已解锁"
+
+#: src/svnfrontend/ccontextlistener.cpp:89
+#, kde-format
+msgid "Lock failed"
+msgstr "锁定失败"
+
+#: src/svnfrontend/ccontextlistener.cpp:90
+#, kde-format
+msgid "Unlock failed"
+msgstr "解锁失败"
+
+#: src/svnfrontend/ccontextlistener.cpp:95
+#, kde-format
+msgid "unchanged"
+msgstr "未更改"
+
+#: src/svnfrontend/ccontextlistener.cpp:96
+#, kde-format
+msgid "item wasn't present"
+msgstr "项目不存在"
+
+#: src/svnfrontend/ccontextlistener.cpp:97
+#, kde-format
+msgid "unversioned item obstructed work"
+msgstr "未版本化的项目造成工作阻碍"
+
+#: src/svnfrontend/ccontextlistener.cpp:100
+#, kde-format
+msgid "Modified state had mods merged in."
+msgstr "修改过的状态已合并了其他修改。"
+
+#: src/svnfrontend/ccontextlistener.cpp:101
+#, kde-format
+msgid "Modified state got conflicting mods."
+msgstr "修改过的状态遇到了冲突的修改。"
+
+#: src/svnfrontend/ccontextlistener.cpp:305
+#, kde-format
+msgid "Enter password for realm %1"
+msgstr "输入 %1 域的密码"
+
+#: src/svnfrontend/ccontextlistener.cpp:336
+#, kde-format
+msgid ""
+"The certificate is not issued by a trusted authority. Use the fingerprint to "
+"validate the certificate manually."
+msgstr "证书并非由受信任的证书认证机构所签发的。请用指纹来手动检验证书。"
+
+#: src/svnfrontend/ccontextlistener.cpp:339
+#, kde-format
+msgid "The certificate hostname does not match."
+msgstr "证书主机名称不符。"
+
+#: src/svnfrontend/ccontextlistener.cpp:342
+#, kde-format
+msgid "The certificate is not yet valid."
+msgstr "证书尚未生效。"
+
+#: src/svnfrontend/ccontextlistener.cpp:345
+#, kde-format
+msgid "The certificate has expired."
+msgstr "此证书已过期."
+
+#: src/svnfrontend/ccontextlistener.cpp:348
+#, kde-format
+msgid "The certificate has an unknown error."
+msgstr "证书有未知错误。"
+
+#: src/svnfrontend/ccontextlistener.cpp:370
+#, kde-format
+msgid ""
+"%1\n"
+"Really store password as plain text?"
+msgstr ""
+"%1\n"
+"确定要以纯文本保存密码吗？"
+
+#: src/svnfrontend/ccontextlistener.cpp:371
+#, kde-format
+msgid "Save password"
+msgstr "保存密码"
+
+#: src/svnfrontend/ccontextlistener.cpp:372
+#, kde-format
+msgctxt "@action:button"
+msgid "Store in Plain Text"
+msgstr "以纯文本保存"
+
+#: src/svnfrontend/commandexec.cpp:208 src/svnfrontend/commandexec.cpp:323
+#: src/svnfrontend/graphtree/revgraphview.cpp:994
+#: src/svnfrontend/maintreewidget.cpp:1235
+#: src/svnfrontend/maintreewidget.cpp:2399
+#: src/svnfrontend/maintreewidget.cpp:2606
+#, kde-format
+msgid "SVN Error"
+msgstr "SVN 错误"
+
+#: src/svnfrontend/commandexec.cpp:208
+#, kde-format
+msgid "Command \"%1\" not implemented or known"
+msgstr "命令 \"%1\" 尚未实现或未知"
+
+#: src/svnfrontend/commandexec.cpp:410
+#, kde-format
+msgid "\"GET\" requires output file"
+msgstr "\"GET\" 需要输出文件"
+
+#: src/svnfrontend/commandexec.cpp:591
+#, kde-format
+msgid "May only switch one URL at time"
+msgstr "只能一次切换一个网址"
+
+#: src/svnfrontend/commandexec.cpp:595
+#, kde-format
+msgid "Switch only on working copies"
+msgstr "只在工作副本上切换"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CopyMoveView)
+#: src/svnfrontend/copymoveview.ui:14
+#, kde-format
+msgid "Copy / Move"
+msgstr "复制 / 移动"
+
+#. i18n: ectx: property (text), widget (QLabel, m_HeadOneLabel)
+#: src/svnfrontend/copymoveview.ui:20
+#, kde-format
+msgid "Rename"
+msgstr "重命名"
+
+#. i18n: ectx: property (text), widget (KSqueezedTextLabel, m_OldNameLabel)
+#. i18n: ectx: property (text), widget (KSqueezedTextLabel, m_PrefixLabel)
+#: src/svnfrontend/copymoveview.ui:33 src/svnfrontend/copymoveview.ui:58
+#, kde-format
+msgid "KSqueezedTextLabel"
+msgstr "KSqueezedTextLabel"
+
+#. i18n: ectx: property (text), widget (QLabel, m_HeadTwoLabel)
+#: src/svnfrontend/copymoveview.ui:43
+#, kde-format
+msgid "to"
+msgstr "至"
+
+#: src/svnfrontend/copymoveview_impl.cpp:48
+#, kde-format
+msgid "Rename/move"
+msgstr "重命名/移动"
+
+#: src/svnfrontend/copymoveview_impl.cpp:72
+#, kde-format
+msgctxt "@title:window"
+msgid "Move/Rename File/Directory"
+msgstr "移动/重命名文件/目录"
+
+#: src/svnfrontend/copymoveview_impl.cpp:72
+#, kde-format
+msgctxt "@title:window"
+msgid "Copy File/Directory"
+msgstr "复制文件/目录"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, CreateRepoDlg)
+#: src/svnfrontend/createrepodlg.ui:14
+#, kde-format
+msgid "Create new repository"
+msgstr "创建新版本库"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_DisableFsync)
+#: src/svnfrontend/createrepodlg.ui:22
+#, kde-format
+msgid "Disable fsync at commit (BDB only)"
+msgstr "禁用提交时 fsync（仅 BDB）"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: src/svnfrontend/createrepodlg.ui:32
+#, kde-format
+msgid "Path to repository:"
+msgstr "版本库路径："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, m_FilesystemSelector)
+#: src/svnfrontend/createrepodlg.ui:45
+#, kde-format
+msgid "Select type of storage"
+msgstr "选择存储类型"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, m_FilesystemSelector)
+#: src/svnfrontend/createrepodlg.ui:48
+#, kde-format
+msgid "Select the storage type of repository (FSFS or Berkely DB)"
+msgstr "选择版本库的存储类型（FSFS 或 Berkeley DB）"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_FilesystemSelector)
+#: src/svnfrontend/createrepodlg.ui:52
+#, kde-format
+msgid "FSFS"
+msgstr "FSFS"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_FilesystemSelector)
+#: src/svnfrontend/createrepodlg.ui:57
+#, kde-format
+msgid "BDB"
+msgstr "BDB"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_CreateMainDirs)
+#: src/svnfrontend/createrepodlg.ui:65
+#, kde-format
+msgid "Create trunk, tags and branches folders"
+msgstr "创建 trunk（主干）、tags（标签）与 branch（分支）文件夹"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_CreateMainDirs)
+#: src/svnfrontend/createrepodlg.ui:68
+#, kde-format
+msgid ""
+"If this is set then the base layout (<tt>/trunk</tt>,<tt>/branches</tt> and "
+"<tt>/tags</tt>) will created after opening the fresh repository."
+msgstr ""
+"若设置此选项，打开刚创建的版本库之后将会创建基础布局（<tt>/trunk</tt>、<tt>/"
+"branches</tt> 和 <tt>/tags</tt>）"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_CreateMainDirs)
+#: src/svnfrontend/createrepodlg.ui:71
+#, kde-format
+msgid "Create main folders"
+msgstr "创建主文件夹"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_presvn16compat)
+#: src/svnfrontend/createrepodlg.ui:87
+#, kde-format
+msgid "Is created repository compatible to Subversion prior 1.6"
+msgstr "创建的版本库是否与 Subversion 1.6 版以下兼容"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_presvn16compat)
+#: src/svnfrontend/createrepodlg.ui:90
+#, kde-format
+msgid ""
+"If set, the repository created will compatible to Subversion prior 1.5. This "
+"is only useful when svnqt is running with Subversion 1.6 or above."
+msgstr ""
+"若设置此选项，创建的版本库会与 Subversion 1.5 以下兼容。这只在 svnqt 使用 "
+"Subversion 1.6 以上时才有用。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_presvn16compat)
+#: src/svnfrontend/createrepodlg.ui:93
+#, kde-format
+msgid "Compatible to Subversion prior 1.6"
+msgstr "与 Subversion 1.6 版以下兼容"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_LogKeep)
+#: src/svnfrontend/createrepodlg.ui:113
+#, kde-format
+msgid "Disable automatic log file removal (BDB only)"
+msgstr "禁用日志文件自动移除（仅 BDB）"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: src/svnfrontend/createrepodlg.ui:123
+#, kde-format
+msgid "Type of repository:"
+msgstr "版本库类型："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_presvn15compat)
+#: src/svnfrontend/createrepodlg.ui:139
+#, kde-format
+msgid "Is created repository compatible to Subversion prior 1.5"
+msgstr "创建的版本库是否与 Subversion 1.5 版以下兼容"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_presvn15compat)
+#: src/svnfrontend/createrepodlg.ui:142
+#, kde-format
+msgid ""
+"If set, the repository created will compatible to Subversion prior 1.5. This "
+"is only useful when svnqt is running with Subversion 1.5 or above."
+msgstr ""
+"若设置此选项，创建的版本库会与 Subversion 1.5 以下兼容。这只在 svnqt 使用 "
+"Subversion 1.5 以上时才有用。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_presvn15compat)
+#: src/svnfrontend/createrepodlg.ui:145
+#, kde-format
+msgid "Compatible to Subversion prior 1.5"
+msgstr "与 Subversion 1.5 版以下兼容"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_presvn18compat)
+#: src/svnfrontend/createrepodlg.ui:162
+#, kde-format
+msgid "Is created repository compatible to Subversion prior 1.8"
+msgstr "创建的版本库是否与 Subversion 1.8 版以下兼容"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_presvn18compat)
+#: src/svnfrontend/createrepodlg.ui:165
+#, kde-format
+msgid ""
+"If set, the repository created will compatible to Subversion prior 1.4. This "
+"is only useful when svnqt is running with Subversion 1.8 or above."
+msgstr "若设置此选项，创建的版本库将与 Subversion 1.4 以下兼容。这只在 svnqt 使用 Subversion 1.8 或更高版本时才有用。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_presvn18compat)
+#: src/svnfrontend/createrepodlg.ui:168
+#, kde-format
+msgid "Compatible to Subversion prior 1.8"
+msgstr "与 Subversion 1.8 版以下兼容"
+
+#: src/svnfrontend/database/dboverview.cpp:113
+#, kde-format
+msgid "Log cache holds %1 log entries and consumes %2 on disk."
+msgstr "日志缓存内有 %1 条日志并在磁盘上使用 %2。"
+
+#: src/svnfrontend/database/dboverview.cpp:129
+#, kde-format
+msgid ""
+"Really clean cache for repository\n"
+"%1?"
+msgstr ""
+"确定要为以下版本库清空缓存吗？\n"
+"%1"
+
+#: src/svnfrontend/database/dboverview.cpp:130
+#, kde-format
+msgid "Clean repository cache"
+msgstr "清空版本库缓存"
+
+#: src/svnfrontend/database/dboverview.cpp:131
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete Cache"
+msgstr "删除缓存"
+
+#: src/svnfrontend/database/dboverview.cpp:148
+#, kde-format
+msgid ""
+"Really clean cache and data for repository\n"
+"%1?"
+msgstr ""
+"确定要删除以下版本库的数据和缓存吗？\n"
+"%1"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_DeleteRepositoryButton)
+#: src/svnfrontend/database/dboverview.cpp:149
+#: src/svnfrontend/database/dboverview.ui:59
+#, kde-format
+msgid "Delete repository"
+msgstr "删除版本库"
+
+#: src/svnfrontend/database/dboverview.cpp:150
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete Repository"
+msgstr "删除版本库"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, DBOverView)
+#: src/svnfrontend/database/dboverview.ui:6
+#, kde-format
+msgid "Overview about cache database content"
+msgstr "缓存数据库内容概览"
+
+#. i18n: ectx: property (text), widget (QLabel, m_RepositoryLabel)
+#: src/svnfrontend/database/dboverview.ui:19
+#, kde-format
+msgid "Known repositories"
+msgstr "已知的版本库"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_DeleteCacheButton)
+#. i18n: ectx: property (statusTip), widget (QPushButton, m_DeleteCacheButton)
+#: src/svnfrontend/database/dboverview.ui:40
+#: src/svnfrontend/database/dboverview.ui:43
+#, kde-format
+msgid "Delete cache entries for current selected repository"
+msgstr "从当前选择版本库中删除缓存条目"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_DeleteCacheButton)
+#: src/svnfrontend/database/dboverview.ui:46
+#, kde-format
+msgid "Delete cache"
+msgstr "删除缓存"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_DeleteRepositoryButton)
+#. i18n: ectx: property (statusTip), widget (QPushButton, m_DeleteRepositoryButton)
+#: src/svnfrontend/database/dboverview.ui:53
+#: src/svnfrontend/database/dboverview.ui:56
+#, kde-format
+msgid "Delete all entries and settings for selected repository"
+msgstr "从已选版本库中删除所有条目和设置"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_SettingsButton)
+#: src/svnfrontend/database/dboverview.ui:66
+#, kde-format
+msgid "Repository Settings"
+msgstr "版本库设置"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_StatisticButton)
+#: src/svnfrontend/database/dboverview.ui:73
+#, kde-format
+msgid "Statistics for repository"
+msgstr "版本库统计数据"
+
+#: src/svnfrontend/database/dbsettings.cpp:41
+#, kde-format
+msgctxt "@title:window"
+msgid "Settings for %1"
+msgstr "%1 的设置"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: src/svnfrontend/database/dbsettings.ui:21
+#, kde-format
+msgid "Log cache settings"
+msgstr "日志缓存设置"
+
+#. i18n: ectx: property (text), widget (QCheckBox, dbcfg_noCacheUpdate)
+#: src/svnfrontend/database/dbsettings.ui:27
+#, kde-format
+msgid "Do not update log cache on open"
+msgstr "不要在启动时更新日志缓存"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/svnfrontend/database/dbsettings.ui:40
+#, kde-format
+msgid "Prefixes to filter out in revision tree"
+msgstr "要从修订版文件树中过滤掉的前缀"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: src/svnfrontend/database/dbsettings.ui:58
+#, kde-format
+msgid "Log and statistics setting"
+msgstr "日志与统计数据设置"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/svnfrontend/database/dbsettings.ui:70
+#, kde-format
+msgid "Hide logs containing following words"
+msgstr "隐藏包含以下词汇的日志"
+
+#. i18n: ectx: property (toolTip), widget (KEditListWidget, dbcfg_exclude_log_pattern)
+#: src/svnfrontend/database/dbsettings.ui:77
+#, kde-format
+msgid ""
+"This is a list which words/substrings a log entry must contain so it will be "
+"hidden from log and statistics"
+msgstr "日志条目包含这个列表内的词的时候会从日志和统计中隐藏"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/svnfrontend/database/dbsettings.ui:98
+#, kde-format
+msgid "Do not show commits from following users"
+msgstr "不显示以下用户的提交"
+
+#. i18n: ectx: property (toolTip), widget (KEditListWidget, dbcfg_exclude_userslog)
+#: src/svnfrontend/database/dbsettings.ui:105
+#, kde-format
+msgid ""
+"Do not display commits of listed users in log window and statistics view"
+msgstr "不在日志窗口和统计数据视图里显示下列用户的提交"
+
+#. i18n: ectx: property (text), widget (QCheckBox, dbcfg_filter_empty_author)
+#: src/svnfrontend/database/dbsettings.ui:115
+#, kde-format
+msgid "Do not display commits without author"
+msgstr "不显示没有作者的提交"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DumpRepoDlg)
+#: src/svnfrontend/dumprepo_dlg.ui:14
+#, kde-format
+msgid "Dump repository"
+msgstr "转储版本库"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_UseDeltas)
+#: src/svnfrontend/dumprepo_dlg.ui:35
+#, kde-format
+msgid "Use deltas"
+msgstr "使用增量编码"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, m_StartNumber)
+#: src/svnfrontend/dumprepo_dlg.ui:54
+#, kde-format
+msgid "-1 for START"
+msgstr "-1 代表 START"
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblEnd)
+#: src/svnfrontend/dumprepo_dlg.ui:67
+#, kde-format
+msgid "End revision:"
+msgstr "结束修订版："
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_incrementalDump)
+#: src/svnfrontend/dumprepo_dlg.ui:94
+#, kde-format
+msgid "incremental Dump"
+msgstr "递增转储"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_Rangeonly)
+#: src/svnfrontend/dumprepo_dlg.ui:107
+#, kde-format
+msgid "Dump revision range"
+msgstr "转储修订版范围"
+
+#. i18n: ectx: property (text), widget (QLabel, m_OutfileLabel)
+#: src/svnfrontend/dumprepo_dlg.ui:117
+#, kde-format
+msgid "Dump into:"
+msgstr "转储到："
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, m_EndNumber)
+#: src/svnfrontend/dumprepo_dlg.ui:136
+#, kde-format
+msgid "-1 for HEAD"
+msgstr "-1 代表 HEAD"
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblStart)
+#: src/svnfrontend/dumprepo_dlg.ui:149
+#, kde-format
+msgid "Start revision:"
+msgstr "起始修订版："
+
+#. i18n: ectx: property (text), widget (QLabel, m_RepoLabel)
+#: src/svnfrontend/dumprepo_dlg.ui:162
+#, kde-format
+msgid "Repository to dump:"
+msgstr "要转储的版本库："
+
+#. i18n: ectx: property (text), widget (QLabel, m_PatternLabel)
+#: src/svnfrontend/editignorepattern.ui:17
+#, kde-format
+msgid "Patterns to add or remove:"
+msgstr "要添加或移除的模式："
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_RemoveCheckBox)
+#: src/svnfrontend/editignorepattern.ui:40
+#, kde-format
+msgid "Remove patterns"
+msgstr "移除模式"
+
+#. i18n: ectx: property (text), widget (QLabel, m_DepthLabel)
+#: src/svnfrontend/editignorepattern.ui:49
+#, kde-format
+msgid "Depth for ignore"
+msgstr "忽略的深度"
+
+#: src/svnfrontend/editpropsdlg.cpp:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Property"
+msgstr "添加属性"
+
+#: src/svnfrontend/editpropsdlg.cpp:44 src/svnfrontend/editpropsdlg.cpp:84
+#, kde-format
+msgid "One of <b>'native'</b>, <b>'LF'</b>, <b>'CR'</b>, <b>'CRLF'</b>."
+msgstr ""
+"<b>'native'</b>（依照系统）、<b>'LF'</b>、<b>'CR'</b> 或 <b>'CRLF'</b> 之一。"
+
+#: src/svnfrontend/editpropsdlg.cpp:46 src/svnfrontend/editpropsdlg.cpp:86
+#, kde-format
+msgid ""
+"If present, make the file executable.<br/>This property can not be set on a "
+"directory. A non-recursive attempt will fail, and a recursive attempt will "
+"set the property only on the file children of the folder."
+msgstr ""
+"若存在，将文件标记为可执行。<br/>这个属性不能设置在目录上。在目录上时尝试非递"
+"回地设置时会失败，而递归地设置时则只会在文件夹下的文件上设置这个属性。"
+
+#: src/svnfrontend/editpropsdlg.cpp:51
+#, kde-format
+msgid ""
+"Keywords to be expanded into the contents of a file.<br/>They can be "
+"inserted into documents by placing a keyword anchor which is formatted as "
+"$KeywordName$.<br/>Valid keywords are:<br/><b>URL/HeadURL</b> The URL for "
+"the head revision of the project.<br/><b>Author/LastChangedBy</b> The last "
+"person to change the file.<br/><b>Date/LastChangedDate</b> The date/time the "
+"object was last modified.<br/><b>Revision/Rev/LastChangedRevision</b> The "
+"last revision the object changed.<br/><b>Id</b> A compressed summary of the "
+"previous 4 keywords."
+msgstr ""
+"要展开到文件内容中的关键字。<br/>借由将关键字定锚用 $关键字名称$ 格式写在文档"
+"内，它们可以被插入文档中。<br/>有效的关键字是：<br/><b>URL/HeadURL</b> 项目"
+"的 HEAD 修订版的网址。<br/><b>Author/LastChangedBy</b> 最后修改文件的人。<br/"
+"><b>Date/LastChangedDate</b> 对象最后修改的日期/时间。<br/><b>Revision/Rev/"
+"LastChangedRevision</b> 对象最后变更的修订版。<br/><b>Id</b> 前四个关键字的简"
+"短概要。"
+
+#: src/svnfrontend/editpropsdlg.cpp:61
+#, kde-format
+msgid ""
+"Set this to any value (e.g. <b>'*'</b>) to enforce locking for this file.<br/"
+">The file will be set read-only when checked out or updated, indicating that "
+"a user must acquire a lock on the file before they can edit and commit "
+"changes."
+msgstr " 将其设为任意值（例如 <b>'*'</b>）可强制此文件必须锁定。<br/>该文件在检出或更新时会被设为只读，表示用户必须先取得该文件的锁才能编辑并提交修改。"
+
+#: src/svnfrontend/editpropsdlg.cpp:66 src/svnfrontend/editpropsdlg.cpp:100
+#, kde-format
+msgid ""
+"The mimetype of the file. Used to determine whether to merge the file and "
+"how to serve it from Apache. A mimetype beginning with <b>'text/'</b> (or an "
+"absent mimetype) is treated as text. Anything else is treated as binary."
+msgstr " 文件的 MIME 类型。用于决定是否合并该文件，以及 Apache 如何提供该文件。以 <b>'text/'</b> 开头（或不存在）的 MIME 类型被视为文本，其余视为二进制文件。"
+
+#: src/svnfrontend/editpropsdlg.cpp:93
+#, kde-format
+msgid ""
+"A newline separated list of module specifiers, each consisting of a relative "
+"directory path, optional revision flags, and a URL. For example:<br/"
+"><nobr><b>foo http://example.com/repos/projectA</b></nobr><br/><nobr><b>foo/"
+"bar -r 1234 http://example.com/repos/projectB</b></nobr>"
+msgstr ""
+"用换行来分隔的模块指定器列表，每个模块指定器包含一个相对目录路径、可有可无的"
+"修订版标志，以及一个网址。例如：<br/><nobr><b>foo http://example.com/repos/"
+"projectA</b></nobr><br/><nobr><b>foo/bar -r 1234 http://example.com/repos/"
+"projectB</b></nobr>"
+
+#: src/svnfrontend/editpropsdlg.cpp:98
+#, kde-format
+msgid "A newline separated list of file patterns to ignore."
+msgstr "用换行分隔的忽略文件模式列表。"
+
+#: src/svnfrontend/editpropsdlg.cpp:104
+#, kde-format
+msgid ""
+"Label text to show for the edit box where the user enters the issue number."
+msgstr "要为用户输入议题编号的编辑框显示的标记文字。"
+
+#: src/svnfrontend/editpropsdlg.cpp:108
+#, kde-format
+msgid ""
+"URL pointing to the issue tracker. It must contain <b>%BUGID%</b> which gets "
+"replaced with the bug issue number. Example:<br/><nobr><b>http://example.com/"
+"mantis/view.php?id=%BUGID%</b></nobr>"
+msgstr ""
+"指向议题追踪 (issue tracker) 的网址。它必须包含 <b>%BUGID%</b>，这会被换成议"
+"题编号。例：<br/><nobr><b>http://example.com/mantis/view.php?id=%BUGID%</b></"
+"nobr>"
+
+#: src/svnfrontend/editpropsdlg.cpp:112
+#, kde-format
+msgid ""
+"String which is appended to a log message when an issue number is entered. "
+"The string must contain <b>%BUGID%</b> which gets replaced with the bug "
+"issue number."
+msgstr ""
+"有输入议题编号时会加到日志消息后方的字符串。字符串中必须包含 <b>%BUGID%</b>，"
+"它会被替换成议题编号。"
+
+#: src/svnfrontend/editpropsdlg.cpp:116
+#, kde-format
+msgid ""
+"Set to <b>'yes'</b> if a warning shall be shown when no issue is entered in "
+"the commit dialog. Possible values:<br/><b>'true'</b>/<b>'yes'</b> or "
+"<b>'false'</b>/<b>'no'</b>."
+msgstr ""
+"如果提交对话框中未输入议题时应该显示警告，请设为 <b>'yes'</b>。可能的值："
+"<br/><b>'true'</b>/<b>'yes'</b> 或 <b>'false'</b>/<b>'no'</b>。"
+
+#: src/svnfrontend/editpropsdlg.cpp:120
+#, kde-format
+msgid ""
+"Set to <b>'false'</b> if your bugtracking system has issues which are "
+"referenced not by numbers.<br/>Possible values: <b>'true'</b> or <b>'false'</"
+"b>."
+msgstr ""
+"如果您的错误追踪系统有不使用编号进行参照的议题，请设为 <b>'false'</b>。<br/>"
+"可能的值：<b>'true'</b> 或 <b>'false'</b>。"
+
+#: src/svnfrontend/editpropsdlg.cpp:124
+#, kde-format
+msgid ""
+"Set to <b>'false'</b> if you want the bugtracking ID to be inserted at the "
+"top of the log message. The default is <b>'true'</b> which means the "
+"bugtracking ID is appended to the log message."
+msgstr ""
+"如果您希望错误追踪 ID 要插入在日志消息顶端，请设为 <b>'false'</b>。默认是 "
+"<b>'true'</b>，代表错误追踪 ID 是加到日志消息尾端的。"
+
+#: src/svnfrontend/editpropsdlg.cpp:129
+#, kde-format
+msgid ""
+"Two regular expressions separated by a newline.<br/>The first expression is "
+"used to find a string referring to an issue, the second expression is used "
+"to extract the bare bug ID from that string."
+msgstr ""
+"两个正则表达式，以换行符分开。<br/>第一个正则表达式用来查找提到议题的字符串，"
+"第二个正则表达式用来从那个字符串取出独立的错误/议题 ID。"
+
+#: src/svnfrontend/editpropsdlg.cpp:136
+#, kde-format
+msgid "Select or enter new property"
+msgstr "选择或输入新属性"
+
+#: src/svnfrontend/editpropsdlg.cpp:160
+#, kde-format
+msgid "No help for this property available"
+msgstr "这个属性没有可用的帮助"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, EditPropsDlg)
+#: src/svnfrontend/editpropsdlg.ui:14
+#, kde-format
+msgid "Modify property"
+msgstr "修改属性"
+
+#. i18n: ectx: property (text), widget (QLabel, m_NameLabel)
+#: src/svnfrontend/editpropsdlg.ui:22
+#, kde-format
+msgid "Property name:"
+msgstr "属性名称："
+
+#. i18n: ectx: property (text), widget (QLabel, m_ValueLabel)
+#: src/svnfrontend/editpropsdlg.ui:46
+#, kde-format
+msgid "Property value:"
+msgstr "属性值："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, helpButton)
+#: src/svnfrontend/editpropsdlg.ui:69
+#, kde-format
+msgid "Click for short info about pre-defined property name"
+msgstr "点击可查看预定义属性名称的简要说明"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CheckoutInfo)
+#: src/svnfrontend/fronthelpers/checkoutinfo.ui:14
+#, kde-format
+msgid "Checkout info"
+msgstr "检出信息"
+
+#. i18n: ectx: property (text), widget (QLabel, m_TargetLabel)
+#: src/svnfrontend/fronthelpers/checkoutinfo.ui:26
+#, kde-format
+msgid "Select target directory:"
+msgstr "选择目标目录："
+
+#. i18n: ectx: property (text), widget (QLabel, m_UrlLabel)
+#: src/svnfrontend/fronthelpers/checkoutinfo.ui:40
+#, kde-format
+msgid "Enter URL:"
+msgstr "输入 URL："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_ignoreExternals)
+#: src/svnfrontend/fronthelpers/checkoutinfo.ui:67
+#, kde-format
+msgid "Ignore externals while operation"
+msgstr "操作期间忽略外部项"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_ignoreExternals)
+#: src/svnfrontend/fronthelpers/checkoutinfo.ui:70
+#, kde-format
+msgid "Ignore externals"
+msgstr "忽略外部项"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_overwriteButton)
+#: src/svnfrontend/fronthelpers/checkoutinfo.ui:77
+#, kde-format
+msgid "May existing unversioned items overwritten"
+msgstr "现有的未版本化项目是否能被覆盖"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_overwriteButton)
+#: src/svnfrontend/fronthelpers/checkoutinfo.ui:80
+#, kde-format
+msgid "Overwrite existing"
+msgstr "覆盖现存"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_IgnoreKeywords)
+#: src/svnfrontend/fronthelpers/checkoutinfo.ui:93
+#, kde-format
+msgid "Ignore keywords"
+msgstr "忽略关键词"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_CreateDirButton)
+#: src/svnfrontend/fronthelpers/checkoutinfo.ui:110
+#, kde-format
+msgid "Append source URL name to subfolder"
+msgstr "将源 URL 名称附加到子文件夹名之后"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_ShowExplorer)
+#: src/svnfrontend/fronthelpers/checkoutinfo.ui:120
+#, kde-format
+msgid "Open after job"
+msgstr "工作完成后打开"
+
+#: src/svnfrontend/fronthelpers/propertylist.cpp:43
+#, kde-format
+msgid "Property"
+msgstr "属性"
+
+#: src/svnfrontend/fronthelpers/propertylist.cpp:44
+#, kde-format
+msgid "Value"
+msgstr "值"
+
+#: src/svnfrontend/fronthelpers/propertylist.cpp:104
+#: src/svnfrontend/propertiesdlg.cpp:111 src/svnfrontend/propertiesdlg.cpp:162
+#, kde-format
+msgid ""
+"This property may not set by users.\n"
+"Rejecting it."
+msgstr ""
+"这个属性不能被用户设置。\n"
+"拒绝处理。"
+
+#: src/svnfrontend/fronthelpers/propertylist.cpp:104
+#: src/svnfrontend/propertiesdlg.cpp:111 src/svnfrontend/propertiesdlg.cpp:162
+#, kde-format
+msgid "Protected property"
+msgstr "受保护的属性"
+
+#: src/svnfrontend/fronthelpers/propertylist.cpp:109
+#: src/svnfrontend/propertiesdlg.cpp:115 src/svnfrontend/propertiesdlg.cpp:166
+#, kde-format
+msgid ""
+"A property with that name exists.\n"
+"Rejecting it."
+msgstr ""
+"已存在此名称的属性。\n"
+"拒绝处理。"
+
+#: src/svnfrontend/fronthelpers/propertylist.cpp:109
+#: src/svnfrontend/propertiesdlg.cpp:115 src/svnfrontend/propertiesdlg.cpp:166
+#, kde-format
+msgid "Double property"
+msgstr "重复属性"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, RangeInput)
+#: src/svnfrontend/fronthelpers/rangeinput.ui:6
+#, kde-format
+msgid "Revisions"
+msgstr "修订版"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_startRevBox)
+#: src/svnfrontend/fronthelpers/rangeinput.ui:12
+#: src/svnfrontend/fronthelpers/rangeinput_impl.cpp:205
+#, kde-format
+msgid "Start with revision"
+msgstr "从修订版开始"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, m_startWorkingButton)
+#. i18n: ectx: property (toolTip), widget (QRadioButton, m_stopWorkingButton)
+#: src/svnfrontend/fronthelpers/rangeinput.ui:23
+#: src/svnfrontend/fronthelpers/rangeinput.ui:140
+#, kde-format
+msgid "Select current working copy changes"
+msgstr "选择当前工作副本的变更"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_startWorkingButton)
+#. i18n: ectx: property (text), widget (QRadioButton, m_stopWorkingButton)
+#: src/svnfrontend/fronthelpers/rangeinput.ui:26
+#: src/svnfrontend/fronthelpers/rangeinput.ui:143
+#, kde-format
+msgid "WORKING"
+msgstr "WORKING"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_startNumberButton)
+#: src/svnfrontend/fronthelpers/rangeinput.ui:56
+#, kde-format
+msgid "N&umber"
+msgstr "数字(&U)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_startHeadButton)
+#. i18n: ectx: property (text), widget (QRadioButton, m_stopHeadButton)
+#: src/svnfrontend/fronthelpers/rangeinput.ui:66
+#: src/svnfrontend/fronthelpers/rangeinput.ui:120
+#, kde-format
+msgid "HEAD"
+msgstr "HEAD"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_startStartButton)
+#: src/svnfrontend/fronthelpers/rangeinput.ui:73
+#, kde-format
+msgid "S&TART"
+msgstr "开始(&T)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_stopRevBox)
+#: src/svnfrontend/fronthelpers/rangeinput.ui:85
+#, kde-format
+msgid "Stop with revision"
+msgstr "在修订版结束"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_stopNumberButton)
+#: src/svnfrontend/fronthelpers/rangeinput.ui:93
+#, kde-format
+msgid "Number"
+msgstr "数字"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_stopStartButton)
+#: src/svnfrontend/fronthelpers/rangeinput.ui:113
+#, kde-format
+msgid "START"
+msgstr "开始"
+
+#: src/svnfrontend/fronthelpers/rangeinput_impl.cpp:58
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Revisions"
+msgstr "选择修订版"
+
+#: src/svnfrontend/fronthelpers/rangeinput_impl.cpp:201
+#, kde-format
+msgid "Select revision"
+msgstr "选择修订版"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_RevisionButton)
+#: src/svnfrontend/fronthelpers/revisionbutton.ui:23
+#, kde-format
+msgid "-1"
+msgstr "-1"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:146
+#, kde-format
+msgid ""
+"Could not run process \"%1\".\n"
+"\n"
+"Process stopped with message:\n"
+"%2"
+msgstr ""
+"无法运行进程 \"%1\"。\n"
+"\n"
+"进程已中止，消息：\n"
+"%2"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:334
+#, kde-format
+msgid "Error running the graph layouting tool.\n"
+msgstr "运行图表布局工具时出错。\n"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:335
+#, kde-format
+msgid "Please check that 'dot' is installed (package GraphViz)."
+msgstr "请确认 'dot' 已安装（软件包是 GraphViz）。"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:424
+#, kde-format
+msgid "Deleted at revision %1"
+msgstr "于修订版 %1 删除"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:427
+#, kde-format
+msgid "Added at revision %1 as %2"
+msgstr "在修订版 %1 作为 %2 添加"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:431
+#, kde-format
+msgid "Copied to %1 at revision %2"
+msgstr "于修订版 %2 复制到 %1"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:434
+#, kde-format
+msgid "Renamed to %1 at revision %2"
+msgstr "于修订版 %2 重命名为 %1"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:437
+#, kde-format
+msgid "Modified at revision %1"
+msgstr "于修订版 %1 修改"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:440
+#, kde-format
+msgid "Replaced at revision %1"
+msgstr "于修订版 %1 替换"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:443
+#, kde-format
+msgid "Revision %1"
+msgstr "修订版 %1"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:463
+#, kde-format
+msgid "Could not open temporary file %1 for writing."
+msgstr "无法打开临时文件 %1 供写入。"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:556
+#, kde-format
+msgid "<br>Revision: %1<br>Author: %2<br>Date: %3<br>Log: %4</html>"
+msgstr "<br>修订版：%1<br>作者：%2<br>日期：%3<br>日志：%4</html>"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:559
+#, kde-format
+msgid "<b>Revision</b>%1%2%3"
+msgstr "<b>修订版</b>%1%2%3"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:559
+#, kde-format
+msgid "<b>Author</b>%1%2%3"
+msgstr "<b>作者</b>%1%2%3"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:560
+#, kde-format
+msgid "<b>Date</b>%1%2%3"
+msgstr "<b>日期</b>%1%2%3"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:560
+#, kde-format
+msgid "<b>Log</b>%1%2%3"
+msgstr "<b>日志</b>%1%2%3"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:835
+#, kde-format
+msgid "Diff to previous"
+msgstr "与前一版本比较"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:838
+#, kde-format
+msgid "Diff to selected item"
+msgstr "与所选项目比较"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:841
+#: src/svnfrontend/svnlogdlgimp.cpp:524
+#, kde-format
+msgid "Cat this version"
+msgstr "Cat 这个版本"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:844
+#, kde-format
+msgid "Unselect item"
+msgstr "取消选择项目"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:846
+#, kde-format
+msgid "Select item"
+msgstr "选择项目"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:849
+#, kde-format
+msgid "Display details"
+msgstr "显示详细数据"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:852
+#, kde-format
+msgid "Rotate counter-clockwise"
+msgstr "逆时针旋转"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:853
+#, kde-format
+msgid "Rotate clockwise"
+msgstr "旋转 (顺时针)"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:859
+#: src/svnfrontend/graphtree/revgraphview.cpp:877
+#, kde-format
+msgid "Save tree as PNG"
+msgstr "将树状图保存为 PNG 文件"
+
+#: src/svnfrontend/graphtree/revgraphview.cpp:877
+#, kde-format
+msgid "Image (*.png)"
+msgstr "图像 (*.png)"
+
+#: src/svnfrontend/graphtree/revisiontree.cpp:97
+#: src/svnfrontend/svnactions.cpp:321
+#, kde-format
+msgctxt "@title:window"
+msgid "Logs"
+msgstr "日志"
+
+#: src/svnfrontend/graphtree/revisiontree.cpp:97
+#: src/svnfrontend/svnactions.cpp:322
+#, kde-format
+msgid "Getting logs - hit Cancel for abort"
+msgstr "正在获取日志 - 按取消来中止"
+
+#: src/svnfrontend/graphtree/revisiontree.cpp:108
+#, kde-format
+msgid "No log cache possible due broken database and networking not allowed."
+msgstr "由于日志缓存数据库损坏且网络已禁用而无法更新日志缓存。"
+
+#: src/svnfrontend/graphtree/revisiontree.cpp:108
+#: src/svnfrontend/graphtree/revisiontree.cpp:113
+#, kde-format
+msgid ""
+"Could not retrieve logs, reason:\n"
+"%1"
+msgstr ""
+"无法获取日志，原因：\n"
+"%1"
+
+#: src/svnfrontend/graphtree/revisiontree.cpp:142
+#, kde-format
+msgid "Scanning the logs for %1"
+msgstr "正在扫描 %1 的日志"
+
+#: src/svnfrontend/graphtree/revisiontree.cpp:142
+#, kde-format
+msgid "Cancel"
+msgstr "取消"
+
+#: src/svnfrontend/graphtree/revisiontree.cpp:143
+#, kde-format
+msgctxt "@title:window"
+msgid "Scanning logs"
+msgstr "正在扫描日志"
+
+#: src/svnfrontend/graphtree/revisiontree.cpp:231
+#: src/svnfrontend/graphtree/revisiontree.cpp:268
+#: src/svnfrontend/graphtree/revisiontree.cpp:316
+#, kde-format
+msgid "%1<br>Check change entry %2 of %3"
+msgstr "%1<br>检查 %3 的变更条目 %2"
+
+#. i18n: ectx: property (text), widget (QLabel, m_Srclabel)
+#: src/svnfrontend/hotcopydlg.ui:11
+#, kde-format
+msgid "Repository to copy:"
+msgstr "要复制的版本库："
+
+#. i18n: ectx: property (text), widget (QLabel, m_Destlabel)
+#: src/svnfrontend/hotcopydlg.ui:31
+#, kde-format
+msgid "Destination folder:"
+msgstr "目标文件夹："
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_Cleanlogs)
+#: src/svnfrontend/hotcopydlg.ui:51
+#, kde-format
+msgid "Clean logs"
+msgstr "清除日志"
+
+#: src/svnfrontend/importdir_logmsg.cpp:37
+#, kde-format
+msgid "No ignore"
+msgstr "不忽略"
+
+#: src/svnfrontend/importdir_logmsg.cpp:38
+#, kde-format
+msgid "If set, add files or directories that match ignore patterns."
+msgstr "若设置此选项，即使文件或目录符合忽略模式也仍会添加。"
+
+#: src/svnfrontend/importdir_logmsg.cpp:43
+#, kde-format
+msgid "Ignore unknown node types"
+msgstr "忽略未知节点类型"
+
+#: src/svnfrontend/importdir_logmsg.cpp:44
+#, kde-format
+msgid "Should files with unknown node types be ignored"
+msgstr "是否忽略节点类型未知文件"
+
+#: src/svnfrontend/importdir_logmsg.cpp:45
+#, kde-format
+msgid ""
+"Ignore files of which the node type is unknown, such as device files and "
+"pipes."
+msgstr "忽略节点类型未知的文件，例如设备文件或是管道。"
+
+#: src/svnfrontend/importdir_logmsg.cpp:79
+#, kde-format
+msgid "(Last part)"
+msgstr "（最后一部分）"
+
+#: src/svnfrontend/importdir_logmsg.cpp:79
+#, kde-format
+msgid "Create subdirectory %1 on import"
+msgstr "导入时创建子文件夹 %1"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: src/svnfrontend/loaddmpdlg.ui:11
+#, kde-format
+msgid "Load into repository:"
+msgstr "加载到版本库："
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_UuidGroup)
+#: src/svnfrontend/loaddmpdlg.ui:24
+#, kde-format
+msgid "Uuid action"
+msgstr "UUID 操作"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_UUidForce)
+#. i18n: ectx: property (text), widget (QCheckBox, m_ForceCheck)
+#: src/svnfrontend/loaddmpdlg.ui:30 src/svnfrontend/merge_dlg.ui:116
+#, kde-format
+msgid "Force"
+msgstr "强制"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_UUidIgnore)
+#: src/svnfrontend/loaddmpdlg.ui:40
+#, kde-format
+msgid "Ignore"
+msgstr "忽略"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_UUidDefault)
+#: src/svnfrontend/loaddmpdlg.ui:50
+#, kde-format
+msgid "Default"
+msgstr "默认"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_UsePre)
+#: src/svnfrontend/loaddmpdlg.ui:66
+#, kde-format
+msgid "Use pre-commit hook"
+msgstr "使用提交前挂钩"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_UsePost)
+#: src/svnfrontend/loaddmpdlg.ui:76
+#, kde-format
+msgid "Use post-commit hook"
+msgstr "使用提交后挂钩"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel5)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, m_Rootfolder)
+#: src/svnfrontend/loaddmpdlg.ui:86 src/svnfrontend/loaddmpdlg.ui:144
+#, kde-format
+msgid "Path to load the dump into (see context help)"
+msgstr "要将转储加载到的路径（见工具提示帮助）"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel5)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, m_Rootfolder)
+#: src/svnfrontend/loaddmpdlg.ui:89 src/svnfrontend/loaddmpdlg.ui:147
+#, kde-format
+msgid ""
+"If not empty, load the dump into a specific folder instead into root of "
+"repository. This folder must exist before loading the dump."
+msgstr ""
+"若不是空的，将转储加载到指定的文件夹中而非到版本库的根。这个文件夹必须在加载"
+"转储之前就存在。"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: src/svnfrontend/loaddmpdlg.ui:92
+#, kde-format
+msgid "Load into folder:"
+msgstr "加载到文件夹："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: src/svnfrontend/loaddmpdlg.ui:105
+#, kde-format
+msgid "Dump file:"
+msgstr "转储文件"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_validateProps)
+#: src/svnfrontend/loaddmpdlg.ui:118
+#, kde-format
+msgid "Validate the properties on load (only Subversion 1.7 or newer)"
+msgstr "加载时验证属性（仅 Subversion 1.7 或更新）"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_validateProps)
+#: src/svnfrontend/loaddmpdlg.ui:121
+#, kde-format
+msgid "Validate properties"
+msgstr "验证属性"
+
+#: src/svnfrontend/maintreewidget.cpp:271
+#, kde-format
+msgid "Networked URL to open but networking is disabled."
+msgstr "要打开的网址需要联网但网络已禁用。"
+
+#: src/svnfrontend/maintreewidget.cpp:497
+#, kde-format
+msgid "History of item"
+msgstr "项目的历史"
+
+#: src/svnfrontend/maintreewidget.cpp:502
+#: src/svnfrontend/maintreewidget.cpp:510
+#: src/svnfrontend/maintreewidget.cpp:519
+#, kde-format
+msgid "History"
+msgstr "历史"
+
+#: src/svnfrontend/maintreewidget.cpp:503
+#, kde-format
+msgid "Displays the history log of selected item"
+msgstr "显示已选项目的历史日志"
+
+#: src/svnfrontend/maintreewidget.cpp:505
+#: src/svnfrontend/maintreewidget.cpp:514
+#, kde-format
+msgid "History of item ignoring copies"
+msgstr "除了复制以外的项目历史"
+
+#: src/svnfrontend/maintreewidget.cpp:511
+#: src/svnfrontend/maintreewidget.cpp:520
+#, kde-format
+msgid "Displays the history log of selected item without following copies"
+msgstr "显示已选项目的历史日志但不跟随复制日志"
+
+#: src/svnfrontend/maintreewidget.cpp:523
+#, kde-format
+msgid "Full revision tree"
+msgstr "完整修订版文件树"
+
+#: src/svnfrontend/maintreewidget.cpp:528
+#, kde-format
+msgid "Shows history of item as linked tree"
+msgstr "用相连树状图显示项目历史"
+
+#: src/svnfrontend/maintreewidget.cpp:530
+#, kde-format
+msgid "Partial revision tree"
+msgstr "一部分的修订版文件树"
+
+#: src/svnfrontend/maintreewidget.cpp:535
+#, kde-format
+msgid "Shows history of item as linked tree for a revision range"
+msgstr "用相连树状图显示修订版范围中的项目历史"
+
+#: src/svnfrontend/maintreewidget.cpp:538
+#: src/svnfrontend/maintreewidget.cpp:539
+#, kde-format
+msgid "Properties"
+msgstr "属性"
+
+#: src/svnfrontend/maintreewidget.cpp:541
+#, kde-format
+msgid "Display Properties"
+msgstr "显示属性"
+
+#: src/svnfrontend/maintreewidget.cpp:547
+#, kde-format
+msgid "Display last changes"
+msgstr "显示最近变更"
+
+#: src/svnfrontend/maintreewidget.cpp:552
+#, kde-format
+msgid "Display last changes as difference to previous commit."
+msgstr "将最近的变更作为与上一个提交的差异来显示。"
+
+#: src/svnfrontend/maintreewidget.cpp:554
+#, kde-format
+msgid "Details"
+msgstr "细节"
+
+#: src/svnfrontend/maintreewidget.cpp:559
+#, kde-format
+msgid "Show details about selected item"
+msgstr "显示已选项目的详细数据"
+
+#: src/svnfrontend/maintreewidget.cpp:561
+#, kde-format
+msgid "Move"
+msgstr "移动"
+
+#: src/svnfrontend/maintreewidget.cpp:566
+#, kde-format
+msgid "Moves or renames current item"
+msgstr "移动或重命名当前项目"
+
+#: src/svnfrontend/maintreewidget.cpp:573
+#, kde-format
+msgid "Create a copy of current item"
+msgstr "创建当前项目的副本"
+
+#: src/svnfrontend/maintreewidget.cpp:575
+#, kde-format
+msgid "Check for updates"
+msgstr "检查更新"
+
+#: src/svnfrontend/maintreewidget.cpp:580
+#, kde-format
+msgid ""
+"Check if current working copy has items with newer version in repository"
+msgstr "检查当前工作副本中是否有项目有更新的版本在版本库中"
+
+#: src/svnfrontend/maintreewidget.cpp:582
+#, kde-format
+msgid "Check updates"
+msgstr "检查更新"
+
+#: src/svnfrontend/maintreewidget.cpp:586
+#, kde-format
+msgid "Blame"
+msgstr "追溯"
+
+#: src/svnfrontend/maintreewidget.cpp:587
+#: src/svnfrontend/maintreewidget.cpp:595
+#, kde-format
+msgid ""
+"Output the content of specified files or URLs with revision and author "
+"information in-line."
+msgstr "输出指定的文件或网址的内容，各行旁边包含修订版与作者信息。"
+
+#: src/svnfrontend/maintreewidget.cpp:590
+#, kde-format
+msgid "Blame range"
+msgstr "追溯范围"
+
+#: src/svnfrontend/maintreewidget.cpp:599
+#, kde-format
+msgid "Cat head"
+msgstr "Cat HEAD"
+
+#: src/svnfrontend/maintreewidget.cpp:600
+#, kde-format
+msgid "Output the content of specified files or URLs."
+msgstr "输出指定文件或网址的内容。"
+
+#: src/svnfrontend/maintreewidget.cpp:603
+#, kde-format
+msgid "Cat revision..."
+msgstr "Cat 修订版..."
+
+#: src/svnfrontend/maintreewidget.cpp:608
+#, kde-format
+msgid "Output the content of specified files or URLs at specific revision."
+msgstr "输出指定文件或网址在指定修订版的内容。"
+
+#: src/svnfrontend/maintreewidget.cpp:612
+#, kde-format
+msgid "Lock current items"
+msgstr "锁定当前项目"
+
+#: src/svnfrontend/maintreewidget.cpp:617
+#, kde-format
+msgid "Try lock current item against changes from other users"
+msgstr "试着锁定当前项目，使其他用户无法修改"
+
+#: src/svnfrontend/maintreewidget.cpp:620
+#, kde-format
+msgid "Unlock current items"
+msgstr "解除锁定当前项目"
+
+#: src/svnfrontend/maintreewidget.cpp:625
+#, kde-format
+msgid "Free existing lock on current item"
+msgstr "解除当前项目上现有的锁定"
+
+#: src/svnfrontend/maintreewidget.cpp:630 src/svnfrontend/svnactions.cpp:673
+#, kde-format
+msgid "New folder"
+msgstr "新建文件夹"
+
+#: src/svnfrontend/maintreewidget.cpp:635
+#, kde-format
+msgid "Create a new folder"
+msgstr "创建新文件夹"
+
+#: src/svnfrontend/maintreewidget.cpp:637
+#, kde-format
+msgid "Switch repository"
+msgstr "切换版本库"
+
+#: src/svnfrontend/maintreewidget.cpp:642
+#, kde-format
+msgid "Switch repository path of current working copy path (\"svn switch\")"
+msgstr "切换当前工作副本路径的版本库路径（\"svn switch\"）"
+
+#: src/svnfrontend/maintreewidget.cpp:646
+#, kde-format
+msgid "Relocate current working copy URL"
+msgstr "迁移当前工作副本网址"
+
+#: src/svnfrontend/maintreewidget.cpp:651
+#, kde-format
+msgid "Relocate URL of current working copy path to other URL"
+msgstr "迁移当前工作副本路径的网址到另一个网址"
+
+#: src/svnfrontend/maintreewidget.cpp:660
+#, kde-format
+msgid "Unversioned"
+msgstr "未版本化"
+
+#: src/svnfrontend/maintreewidget.cpp:661
+#, kde-format
+msgid "Browse folder for unversioned items and add them if wanted."
+msgstr "浏览文件夹中的未版本化项目，并且若要的话将它们纳入版本控制。"
+
+#: src/svnfrontend/maintreewidget.cpp:665
+#, kde-format
+msgid "Open repository of working copy"
+msgstr "打开工作副本的版本库"
+
+#: src/svnfrontend/maintreewidget.cpp:670
+#, kde-format
+msgid "Opens the repository the current working copy was checked out from"
+msgstr "打开当前工作副本检出的来源版本库"
+
+#: src/svnfrontend/maintreewidget.cpp:673
+#, kde-format
+msgid "Cleanup"
+msgstr "清理"
+
+#: src/svnfrontend/maintreewidget.cpp:678
+#, kde-format
+msgid ""
+"Recursively clean up the working copy, removing locks, resuming unfinished "
+"operations, etc."
+msgstr "递归清理工作副本，移除锁定、继续进行未完成的操作，等等。"
+
+#: src/svnfrontend/maintreewidget.cpp:680
+#, kde-format
+msgid "Import folders into current"
+msgstr "导入文件夹到当前"
+
+#: src/svnfrontend/maintreewidget.cpp:685
+#, kde-format
+msgid "Import folder content into current URL"
+msgstr "导入文件夹内容到当前网址"
+
+#: src/svnfrontend/maintreewidget.cpp:690
+#, kde-format
+msgid "Add selected files/dirs"
+msgstr "添加已选文件/目录"
+
+#: src/svnfrontend/maintreewidget.cpp:695
+#, kde-format
+msgid "Adding selected files and/or directories to repository"
+msgstr "将已选文件及文件夹添加到版本库"
+
+#: src/svnfrontend/maintreewidget.cpp:698
+#, kde-format
+msgid "Add selected files/dirs recursive"
+msgstr "递归添加已选文件/目录"
+
+#: src/svnfrontend/maintreewidget.cpp:703
+#, kde-format
+msgid ""
+"Adding selected files and/or directories to repository and all subitems of "
+"folders"
+msgstr "将已选文件及文件夹以及文件夹子项目添加到版本库"
+
+#: src/svnfrontend/maintreewidget.cpp:706
+#, kde-format
+msgid "Delete selected files/dirs"
+msgstr "删除已选文件/目录"
+
+#: src/svnfrontend/maintreewidget.cpp:712
+#, kde-format
+msgid "Deleting selected files and/or directories from repository"
+msgstr "从版本库删除已选的文件及目录。"
+
+#: src/svnfrontend/maintreewidget.cpp:714
+#, kde-format
+msgid "Delete folder"
+msgstr "删除文件夹"
+
+#: src/svnfrontend/maintreewidget.cpp:719
+#, kde-format
+msgid "Deleting selected directories from repository"
+msgstr "从版本库删除已选的目录。"
+
+#: src/svnfrontend/maintreewidget.cpp:722
+#, kde-format
+msgid "Revert current changes"
+msgstr "还原当前的变更"
+
+#: src/svnfrontend/maintreewidget.cpp:729
+#, kde-format
+msgid "Mark resolved"
+msgstr "标记为已解决"
+
+#: src/svnfrontend/maintreewidget.cpp:734
+#, kde-format
+msgid "Marking files or dirs resolved"
+msgstr "正在标记文件或目录为已解决"
+
+#: src/svnfrontend/maintreewidget.cpp:737
+#, kde-format
+msgid "Resolve conflicts"
+msgstr "解决冲突"
+
+#: src/svnfrontend/maintreewidget.cpp:743
+#, kde-format
+msgid "Ignore/Unignore current item"
+msgstr "切换是否忽略当前项目"
+
+#: src/svnfrontend/maintreewidget.cpp:745
+#: src/svnfrontend/maintreewidget.cpp:751
+#, kde-format
+msgid "Add or Remove ignore pattern"
+msgstr "添加或移除忽略模式"
+
+#: src/svnfrontend/maintreewidget.cpp:758
+#: src/svnfrontend/maintreewidget.cpp:897
+#, kde-format
+msgid "Update to head"
+msgstr "更新到 HEAD"
+
+#: src/svnfrontend/maintreewidget.cpp:763
+#, kde-format
+msgctxt "Menu item"
+msgid "Update"
+msgstr "更新"
+
+#: src/svnfrontend/maintreewidget.cpp:765
+#, kde-format
+msgid "Update to revision..."
+msgstr "更新到修订版..."
+
+#: src/svnfrontend/maintreewidget.cpp:771
+#: src/svnfrontend/maintreewidget.cpp:776
+#: src/svnfrontend/maintreewidget.cpp:891 src/svnfrontend/svnactions.cpp:1048
+#, kde-format
+msgid "Commit"
+msgstr "提交"
+
+#: src/svnfrontend/maintreewidget.cpp:779
+#: src/svnfrontend/maintreewidget.cpp:786
+#, kde-format
+msgid "Diff local changes"
+msgstr "显示本地修改"
+
+#: src/svnfrontend/maintreewidget.cpp:784
+#: src/svnfrontend/maintreewidget.cpp:791
+#, kde-format
+msgid ""
+"Diff working copy against BASE (last checked out version) - does not require "
+"access to repository"
+msgstr "将工作副本与 BASE（最后检出的版本）进行差异比对 — 不需要访问版本库"
+
+#: src/svnfrontend/maintreewidget.cpp:794
+#, kde-format
+msgid "Diff against HEAD"
+msgstr "与 HEAD 进行差异比对"
+
+#: src/svnfrontend/maintreewidget.cpp:799
+#, kde-format
+msgid ""
+"Diff working copy against HEAD (last checked in version)- requires access to "
+"repository"
+msgstr ""
+"将工作副本与 HEAD（版本库中最后提交的版本）进行差异比对 — 需要访问版本库"
+
+#: src/svnfrontend/maintreewidget.cpp:802
+#: src/svnfrontend/maintreewidget.cpp:809
+#, kde-format
+msgid "Diff items"
+msgstr "比对项目差异"
+
+#: src/svnfrontend/maintreewidget.cpp:807
+#: src/svnfrontend/maintreewidget.cpp:814
+#, kde-format
+msgid "Diff two items"
+msgstr "比对两个项目的差异"
+
+#: src/svnfrontend/maintreewidget.cpp:817
+#, kde-format
+msgid "Merge two revisions"
+msgstr "合并两个修订版"
+
+#: src/svnfrontend/maintreewidget.cpp:822
+#, kde-format
+msgid "Merge"
+msgstr "合并"
+
+#: src/svnfrontend/maintreewidget.cpp:823
+#, kde-format
+msgid "Merge two revisions of this entry into itself"
+msgstr "合并这个条目的两个修订版到它自己身上"
+
+#: src/svnfrontend/maintreewidget.cpp:831
+#, kde-format
+msgid ""
+"Merge repository path into current working copy path or current repository "
+"path into a target"
+msgstr "合并版本库路径到当前工作副本路径，或当前版本库路径到一个目标"
+
+#: src/svnfrontend/maintreewidget.cpp:832
+#: src/svnfrontend/maintreewidget.cpp:1394
+#: src/svnfrontend/maintreewidget.cpp:1461
+#, kde-format
+msgid "Open With..."
+msgstr "打开方式..."
+
+#: src/svnfrontend/maintreewidget.cpp:836
+#, kde-format
+msgid "Checkout current repository path"
+msgstr "检出当前版本库路径"
+
+#: src/svnfrontend/maintreewidget.cpp:841
+#: src/svnfrontend/maintreewidget.cpp:857
+#, kde-format
+msgid "Checkout"
+msgstr "检出"
+
+#: src/svnfrontend/maintreewidget.cpp:843
+#, kde-format
+msgid "Export current repository path"
+msgstr "导出当前版本库路径"
+
+#: src/svnfrontend/maintreewidget.cpp:848
+#, kde-format
+msgid "Select browse revision"
+msgstr "选择要浏览的修订版"
+
+#: src/svnfrontend/maintreewidget.cpp:852 src/svnfrontend/svnactions.cpp:1709
+#: src/svnfrontend/svnactions.cpp:1716
+#, kde-format
+msgid "Checkout a repository"
+msgstr "检出版本库"
+
+#: src/svnfrontend/maintreewidget.cpp:859
+#, kde-format
+msgid "Export a repository"
+msgstr "导出版本库"
+
+#: src/svnfrontend/maintreewidget.cpp:864
+#, kde-format
+msgid "Export"
+msgstr "导出"
+
+#: src/svnfrontend/maintreewidget.cpp:866
+#, kde-format
+msgid "Refresh view"
+msgstr "刷新视图"
+
+#: src/svnfrontend/maintreewidget.cpp:871
+#, kde-format
+msgid "Refresh"
+msgstr "刷新"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_DispSpecDiff)
+#: src/svnfrontend/maintreewidget.cpp:874 src/svnfrontend/svnlogdlg.ui:211
+#, kde-format
+msgid "Diff revisions"
+msgstr "比对修订版差异"
+
+#: src/svnfrontend/maintreewidget.cpp:881
+#, kde-format
+msgid "Unfold File Tree"
+msgstr "展开文件树状图"
+
+#: src/svnfrontend/maintreewidget.cpp:882
+#, kde-format
+msgid "Opens all branches of the file tree"
+msgstr "展开文件树的所有分支"
+
+#: src/svnfrontend/maintreewidget.cpp:883
+#, kde-format
+msgid "Fold File Tree"
+msgstr "折叠文件树状图"
+
+#: src/svnfrontend/maintreewidget.cpp:884
+#, kde-format
+msgid "Closes all branches of the file tree"
+msgstr "折叠文件树的所有分支"
+
+#: src/svnfrontend/maintreewidget.cpp:887
+#: src/svnfrontend/maintreewidget.cpp:1081
+#: src/svnfrontend/maintreewidget.cpp:2040
+#: src/svnfrontend/maintreewidget.cpp:2056
+#, kde-format
+msgid "Update log cache"
+msgstr "更新日志缓存"
+
+#: src/svnfrontend/maintreewidget.cpp:888
+#, kde-format
+msgid "Update the log cache for current repository"
+msgstr "为当前版本库更新日志缓存"
+
+#: src/svnfrontend/maintreewidget.cpp:902
+#, kde-format
+msgid "Set property recursive"
+msgstr "递归设置属性"
+
+#: src/svnfrontend/maintreewidget.cpp:905
+#, kde-format
+msgid "Settings for current repository"
+msgstr "当前版本库的设置"
+
+#: src/svnfrontend/maintreewidget.cpp:1083
+#: src/svnfrontend/maintreewidget.cpp:2051
+#, kde-format
+msgid "Stop updating the log cache"
+msgstr "停止更新日志缓存"
+
+#: src/svnfrontend/maintreewidget.cpp:1280
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Pattern to Ignore for \"%1\""
+msgstr "编辑要为 \"%1\" 忽略的模式"
+
+#: src/svnfrontend/maintreewidget.cpp:1558
+#: src/svnfrontend/maintreewidget.cpp:1601
+#, kde-format
+msgid "Nothing selected for unlock"
+msgstr "没有选择任何要解除锁定的项目"
+
+#: src/svnfrontend/maintreewidget.cpp:1562
+#, kde-format
+msgctxt "@title:window"
+msgid "Lock Message"
+msgstr "锁定消息"
+
+#: src/svnfrontend/maintreewidget.cpp:1569
+#, kde-format
+msgid "Steal lock?"
+msgstr "夺取锁定？"
+
+#: src/svnfrontend/maintreewidget.cpp:1605
+#, kde-format
+msgid "Break lock or ignore missing locks?"
+msgstr "破坏锁定或是忽略缺失的锁定？"
+
+#: src/svnfrontend/maintreewidget.cpp:1606
+#, kde-format
+msgid "Unlocking items"
+msgstr "正在解锁项目"
+
+#: src/svnfrontend/maintreewidget.cpp:1607
+#, kde-format
+msgctxt "@action:button"
+msgid "Break Lock"
+msgstr "破坏锁定"
+
+#: src/svnfrontend/maintreewidget.cpp:1608
+#, kde-format
+msgctxt "@action:button"
+msgid "Ignore"
+msgstr "忽略"
+
+#: src/svnfrontend/maintreewidget.cpp:1902
+#, kde-format
+msgid "Nothing selected for delete"
+msgstr "没有选择任何要删除的项目"
+
+#: src/svnfrontend/maintreewidget.cpp:2073
+#, kde-format
+msgid "Automatic generated base layout by kdesvn"
+msgstr "由 kdesvn 自动生成的基础布局"
+
+#: src/svnfrontend/maintreewidget.cpp:2086
+#, kde-format
+msgid "May not make subdirectories of a file"
+msgstr "无法在文件下创建子目录"
+
+#: src/svnfrontend/maintreewidget.cpp:2198 src/svnfrontend/svnactions.cpp:2306
+#, kde-format
+msgctxt "@title:window"
+msgid "Merge"
+msgstr "合并"
+
+#: src/svnfrontend/maintreewidget.cpp:2260
+#, kde-format
+msgid "Error getting entry to relocate"
+msgstr "获取要迁移的条目时出错"
+
+#: src/svnfrontend/maintreewidget.cpp:2266
+#, kde-format
+msgctxt "@title:window"
+msgid "Relocate Path %1"
+msgstr "迁移路径 %1"
+
+#: src/svnfrontend/maintreewidget.cpp:2280 src/svnfrontend/svnactions.cpp:1709
+#: src/svnfrontend/svnactions.cpp:1965
+#, kde-format
+msgid "Invalid url given!"
+msgstr "给了无效的网址！"
+
+#: src/svnfrontend/maintreewidget.cpp:2280
+#, kde-format
+msgid "Relocate path %1"
+msgstr "迁移路径 %1"
+
+#: src/svnfrontend/maintreewidget.cpp:2303
+#, kde-format
+msgid "Cannot import into multiple targets"
+msgstr "无法导入到多个目标"
+
+#: src/svnfrontend/maintreewidget.cpp:2317
+#, kde-format
+msgid "Import files from folder"
+msgstr "从文件夹导入文件"
+
+#: src/svnfrontend/maintreewidget.cpp:2319
+#, kde-format
+msgid "Import file"
+msgstr "导入文件"
+
+#: src/svnfrontend/maintreewidget.cpp:2341
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Log"
+msgstr "导入日志"
+
+#: src/svnfrontend/maintreewidget.cpp:2399
+#, kde-format
+msgid "Could not retrieve repository of working copy."
+msgstr "无法获取工作副本的版本库。"
+
+#: src/svnfrontend/maintreewidget.cpp:2408
+#, kde-format
+msgid "Only in working copy possible."
+msgstr "只能在工作副本进行。"
+
+#: src/svnfrontend/maintreewidget.cpp:2408
+#: src/svnfrontend/maintreewidget.cpp:2412
+#: src/svnfrontend/maintreewidget.cpp:2417
+#, kde-format
+msgid "Error"
+msgstr "错误"
+
+#: src/svnfrontend/maintreewidget.cpp:2412
+#, kde-format
+msgid "Only on single folder possible"
+msgstr "只能在一个文件夹上进行。"
+
+#: src/svnfrontend/maintreewidget.cpp:2417
+#, kde-format
+msgid "Sorry - internal error"
+msgstr "抱歉 - 内部错误"
+
+#: src/svnfrontend/maintreewidget.cpp:2481
+#, kde-format
+msgid "Hold Ctrl key while click on selected item for unselect"
+msgstr "按住 Ctrl 键点击已选项目可取消选择"
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, m_LogTreeView)
+#. i18n: ectx: property (toolTip), widget (QTreeWidget, m_ChangedList)
+#: src/svnfrontend/maintreewidget.cpp:2484 src/svnfrontend/svnlogdlg.ui:114
+#: src/svnfrontend/svnlogdlg.ui:148
+#, kde-format
+msgid "See context menu for more actions"
+msgstr "更多操作见上下文菜单"
+
+#: src/svnfrontend/maintreewidget.cpp:2487
+#, kde-format
+msgid "Click for navigate"
+msgstr "点击以导航"
+
+#: src/svnfrontend/maintreewidget.cpp:2490
+#, kde-format
+msgid "Navigation"
+msgstr "导航"
+
+#: src/svnfrontend/maintreewidget.cpp:2606
+#, kde-format
+msgid "Could not retrieve repository."
+msgstr "无法获取版本库。"
+
+#: src/svnfrontend/maintreewidget.cpp:2636
+#, kde-format
+msgid "Not yet implemented"
+msgstr "尚未实现"
+
+#: src/svnfrontend/maintreewidget.cpp:2636
+#, kde-format
+msgid "Edit property recursively"
+msgstr "递归编辑属性"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, MergeDlg)
+#: src/svnfrontend/merge_dlg.ui:14
+#, kde-format
+msgid "MergeSettings"
+msgstr "合并设置"
+
+#. i18n: ectx: property (text), widget (QLabel, m_SrcOneLabel)
+#: src/svnfrontend/merge_dlg.ui:22
+#, kde-format
+msgid "Source 1:"
+msgstr "来源 1："
+
+#. i18n: ectx: property (text), widget (QLabel, m_SrcTwoLabel)
+#: src/svnfrontend/merge_dlg.ui:38
+#, kde-format
+msgid "Source 2:"
+msgstr "来源 2："
+
+#. i18n: ectx: property (text), widget (QLabel, m_OutLabel)
+#: src/svnfrontend/merge_dlg.ui:54
+#, kde-format
+msgid "Output to:"
+msgstr "输出到："
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_MergeParameter)
+#: src/svnfrontend/merge_dlg.ui:72
+#, kde-format
+msgid "Merge parameter"
+msgstr "合并参数"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_RecursiveCheck)
+#: src/svnfrontend/merge_dlg.ui:90
+#, kde-format
+msgid "Recursive"
+msgstr "递归"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_RelatedCheck)
+#: src/svnfrontend/merge_dlg.ui:103
+#, kde-format
+msgid "Handle unrelated as related items"
+msgstr "将不相关的项目作为相关的项目处理"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_RelatedCheck)
+#: src/svnfrontend/merge_dlg.ui:106
+#, kde-format
+msgid "Ignore ancestry"
+msgstr "忽略祖先关系"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_ForceCheck)
+#: src/svnfrontend/merge_dlg.ui:113
+#, kde-format
+msgid "Force delete on modified/unversioned items"
+msgstr "强制删除已修改/未版本化的项目"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_Reintegrate)
+#: src/svnfrontend/merge_dlg.ui:126
+#, kde-format
+msgid "lump-merge all of source URL's unmerged changes"
+msgstr "一次合并所有从来源网址来的未合并变更"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_Reintegrate)
+#: src/svnfrontend/merge_dlg.ui:132
+#, kde-format
+msgid "Reintegrate merge"
+msgstr "重新集成合并"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_DryCheck)
+#: src/svnfrontend/merge_dlg.ui:139
+#, kde-format
+msgid "Just dry run without modifications"
+msgstr "仅试运行，不实际修改"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_DryCheck)
+#: src/svnfrontend/merge_dlg.ui:142
+#, kde-format
+msgid "Dry run"
+msgstr "试运行"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_RecordOnly)
+#: src/svnfrontend/merge_dlg.ui:152
+#, kde-format
+msgid "Only write mergeinfo"
+msgstr "只写入 mergeinfo"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_RecordOnly)
+#: src/svnfrontend/merge_dlg.ui:155
+#, kde-format
+msgid ""
+"The merge is not actually performed, but the mergeinfo for the revisions "
+"which would have been merged is recorded in the working copy"
+msgstr "不实际进行合并，但原本会被合并的修订版的 mergeinfo 会记录在工作副本里"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_RecordOnly)
+#: src/svnfrontend/merge_dlg.ui:158
+#, kde-format
+msgid "Record only"
+msgstr "只记录"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_useExternMerge)
+#: src/svnfrontend/merge_dlg.ui:165
+#, kde-format
+msgid "Use external merge not Subversion's merge"
+msgstr "使用外部合并而非 Subversion 的合并"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_useExternMerge)
+#: src/svnfrontend/merge_dlg.ui:168
+#, kde-format
+msgid "Use external merge"
+msgstr "使用外部合并"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_AllowMixedRev)
+#: src/svnfrontend/merge_dlg.ui:175
+#, kde-format
+msgid ""
+"If checked, allow merge into mixed revision working copy, otherwise raises "
+"error in that case"
+msgstr "勾选时，允许合并到混合修订版的工作副本里，不然则在那个情况抛出错误"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_AllowMixedRev)
+#: src/svnfrontend/merge_dlg.ui:179
+#, kde-format
+msgid ""
+"Merge into mixed revision\n"
+"working copy"
+msgstr ""
+"合并到混合修订版\n"
+"工作副本"
+
+#: src/svnfrontend/mergedlg_impl.cpp:196
+#, kde-format
+msgctxt "@title:window"
+msgid "Enter Merge Range"
+msgstr "输入合并范围"
+
+#: src/svnfrontend/models/logitemmodel.cpp:179
+#, kde-format
+msgid "Message"
+msgstr "消息"
+
+#: src/svnfrontend/models/logmodelhelper.cpp:43
+#, kde-format
+msgid "%1 at revision %2"
+msgstr "%1 于修订版 %2"
+
+#: src/svnfrontend/models/svnitemmodel.cpp:317
+#: src/svnfrontend/svnactions.cpp:749
+#, kde-format
+msgid "Name"
+msgstr "名称"
+
+#: src/svnfrontend/models/svnitemmodel.cpp:319
+#, kde-format
+msgid "Status"
+msgstr "状态"
+
+#: src/svnfrontend/models/svnitemmodel.cpp:321
+#, kde-format
+msgid "Last changed Revision"
+msgstr "上次修改的修订版"
+
+#: src/svnfrontend/models/svnitemmodel.cpp:323
+#: src/svnfrontend/svnactions.cpp:808
+#, kde-format
+msgid "Last author"
+msgstr "最后修改者"
+
+#: src/svnfrontend/models/svnitemmodel.cpp:325
+#, kde-format
+msgid "Last change date"
+msgstr "最后修改日期"
+
+#: src/svnfrontend/models/svnitemmodel.cpp:327
+#, kde-format
+msgid "Locked by"
+msgstr "锁定者"
+
+#: src/svnfrontend/opencontextmenu.cpp:59
+#, kde-format
+msgid "Other..."
+msgstr "其他..."
+
+#: src/svnfrontend/propertiesdlg.cpp:80
+#, kde-format
+msgid "Undelete property"
+msgstr "取消删除属性"
+
+#: src/svnfrontend/propertiesdlg.cpp:82
+#, kde-format
+msgid "Delete property"
+msgstr "删除属性"
+
+#: src/svnfrontend/propertiesdlg.cpp:89
+#, kde-format
+msgid "Missing SVN link"
+msgstr "缺失 SVN 链接"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, PropertiesDlg)
+#: src/svnfrontend/propertiesdlg.ui:14
+#, kde-format
+msgid "View and modify properties"
+msgstr "查看并修改属性"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbAdd)
+#: src/svnfrontend/propertiesdlg.ui:39
+#, kde-format
+msgid "Add Property"
+msgstr "添加属性"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbModify)
+#: src/svnfrontend/propertiesdlg.ui:46
+#, kde-format
+msgid "Modify Property"
+msgstr "修改属性"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbDelete)
+#: src/svnfrontend/propertiesdlg.ui:53
+#, kde-format
+msgid "Delete Property"
+msgstr "删除属性"
+
+#: src/svnfrontend/stopdlg.cpp:193
+#, kde-format
+msgid "%p% of %1"
+msgstr "%p, 共有 %1"
+
+#: src/svnfrontend/stopdlg.cpp:201
+#, kde-format
+msgid "%1 of %2"
+msgstr "%1，共 %2"
+
+#: src/svnfrontend/svnactions.cpp:190
+#, kde-format
+msgid "Finished"
+msgstr "已完成"
+
+#: src/svnfrontend/svnactions.cpp:360
+#, kde-format
+msgid "Got no logs"
+msgstr "未获取到日志"
+
+#: src/svnfrontend/svnactions.cpp:484
+#, kde-format
+msgid "Got no info."
+msgstr "未获取信息。"
+
+#: src/svnfrontend/svnactions.cpp:521
+#, kde-format
+msgctxt "@title:window"
+msgid "History of %1"
+msgstr "%1 的历史"
+
+#: src/svnfrontend/svnactions.cpp:562
+#, kde-format
+msgctxt "@title:window"
+msgid "Annotate"
+msgstr "标注"
+
+#: src/svnfrontend/svnactions.cpp:562
+#, kde-format
+msgid "Annotate lines - hit Cancel for abort"
+msgstr "正在标注各行 - 点击取消可中止"
+
+#: src/svnfrontend/svnactions.cpp:570
+#, kde-format
+msgid "Got no annotate"
+msgstr "未获取到标注信息"
+
+#: src/svnfrontend/svnactions.cpp:587
+#, kde-format
+msgctxt "@title:window"
+msgid "Content Get"
+msgstr "内容获取"
+
+#: src/svnfrontend/svnactions.cpp:587
+#, kde-format
+msgid "Getting content - hit Cancel for abort"
+msgstr "正在获取内容 - 按取消来中止"
+
+#: src/svnfrontend/svnactions.cpp:594
+#, kde-format
+msgid "Error getting content"
+msgstr "获取内容时出错"
+
+#: src/svnfrontend/svnactions.cpp:607
+#, kde-format
+msgid "Error while open temporary file"
+msgstr "打开临时文件时出错"
+
+#: src/svnfrontend/svnactions.cpp:638
+#, kde-format
+msgctxt "@title:window"
+msgid "Content of %1"
+msgstr "%1 的内容"
+
+#: src/svnfrontend/svnactions.cpp:648
+#, kde-format
+msgid "Got no content."
+msgstr "未获取内容。"
+
+#: src/svnfrontend/svnactions.cpp:673
+#, kde-format
+msgid "Enter folder name:"
+msgstr "输入文件夹名称："
+
+#: src/svnfrontend/svnactions.cpp:712
+#, kde-format
+msgctxt "@title:window"
+msgid "Details"
+msgstr "详细信息"
+
+#: src/svnfrontend/svnactions.cpp:713
+#, kde-format
+msgid "Retrieving information - hit Cancel for abort"
+msgstr "正在获取信息 - 按取消来中止"
+
+#: src/svnfrontend/svnactions.cpp:752
+#, kde-format
+msgid "URL"
+msgstr "URL"
+
+#: src/svnfrontend/svnactions.cpp:754
+#, kde-format
+msgid "Canonical repository URL"
+msgstr "版本库标准网址"
+
+#: src/svnfrontend/svnactions.cpp:757
+#, kde-format
+msgid "Checksum"
+msgstr "校验和"
+
+#: src/svnfrontend/svnactions.cpp:760
+#, kde-format
+msgid "Type"
+msgstr "类型"
+
+#: src/svnfrontend/svnactions.cpp:763
+#, kde-format
+msgid "Absent"
+msgstr "缺失"
+
+#: src/svnfrontend/svnactions.cpp:766
+#, kde-format
+msgid "File"
+msgstr "文件"
+
+#: src/svnfrontend/svnactions.cpp:769
+#, kde-format
+msgid "Folder"
+msgstr "文件夹"
+
+#: src/svnfrontend/svnactions.cpp:773 src/svnfrontend/svnactions.cpp:802
+#, kde-format
+msgid "Unknown"
+msgstr "未知"
+
+#: src/svnfrontend/svnactions.cpp:778
+#, kde-format
+msgid "Size"
+msgstr "大小"
+
+#: src/svnfrontend/svnactions.cpp:787
+#, kde-format
+msgid "Schedule"
+msgstr "计划的操作"
+
+#: src/svnfrontend/svnactions.cpp:790
+#, kde-format
+msgid "Normal"
+msgstr "普通"
+
+#: src/svnfrontend/svnactions.cpp:793
+#, kde-format
+msgid "Addition"
+msgstr "添加"
+
+#: src/svnfrontend/svnactions.cpp:796
+#, kde-format
+msgid "Deletion"
+msgstr "删除"
+
+#: src/svnfrontend/svnactions.cpp:806
+#, kde-format
+msgid "UUID"
+msgstr "UUID"
+
+#: src/svnfrontend/svnactions.cpp:810
+#, kde-format
+msgid "Last committed"
+msgstr "最后提交"
+
+#: src/svnfrontend/svnactions.cpp:812
+#, kde-format
+msgid "Last revision"
+msgstr "最新修订版"
+
+#: src/svnfrontend/svnactions.cpp:814
+#, kde-format
+msgid "Content last changed"
+msgstr "内容最后修改"
+
+#: src/svnfrontend/svnactions.cpp:818
+#, kde-format
+msgid "Property last changed"
+msgstr "属性最后修改"
+
+#: src/svnfrontend/svnactions.cpp:821
+#, kde-format
+msgid "New version of conflicted file"
+msgstr "冲突文件的新版本"
+
+#: src/svnfrontend/svnactions.cpp:824
+#, kde-format
+msgid "Property reject file"
+msgstr "属性拒绝文件"
+
+#: src/svnfrontend/svnactions.cpp:828
+#, kde-format
+msgid "Copy from URL"
+msgstr "从网址复制"
+
+#: src/svnfrontend/svnactions.cpp:831 src/svnfrontend/svnactions.cpp:838
+#, kde-format
+msgid "Lock token"
+msgstr "锁定令牌"
+
+#: src/svnfrontend/svnactions.cpp:832 src/svnfrontend/svnactions.cpp:839
+#, kde-format
+msgid "Owner"
+msgstr "所有者"
+
+#: src/svnfrontend/svnactions.cpp:833 src/svnfrontend/svnactions.cpp:840
+#, kde-format
+msgid "Locked on"
+msgstr "锁定时间"
+
+#: src/svnfrontend/svnactions.cpp:834 src/svnfrontend/svnactions.cpp:841
+#, kde-format
+msgid "Lock comment"
+msgstr "锁定备注"
+
+#: src/svnfrontend/svnactions.cpp:888
+#, kde-format
+msgctxt "@title:window"
+msgid "Infolist"
+msgstr "信息列表"
+
+#: src/svnfrontend/svnactions.cpp:927
+#, kde-format
+msgctxt "@title:window"
+msgid "Applying Properties"
+msgstr "正在应用属性"
+
+#: src/svnfrontend/svnactions.cpp:928
+#, kde-format
+msgid "<center>Applying<br/>hit cancel for abort</center>"
+msgstr "<center>正在应用<br/>按取消来中止</center>"
+
+#: src/svnfrontend/svnactions.cpp:964
+#, kde-format
+msgid "Could not change to folder %1\n"
+msgstr "无法移动至文件夹 %1\n"
+
+#: src/svnfrontend/svnactions.cpp:982
+#, kde-format
+msgid "Not commit because networking is disabled"
+msgstr "由于网络已禁用而无法提交"
+
+#: src/svnfrontend/svnactions.cpp:1006 src/svnfrontend/svnactions.cpp:2465
+#, kde-format
+msgctxt "@title:window"
+msgid "Status / List"
+msgstr "状态 / 列表"
+
+#: src/svnfrontend/svnactions.cpp:1007 src/svnfrontend/svnactions.cpp:2466
+#, kde-format
+msgid "Creating list / check status"
+msgstr "正在创建列表 / 检查状态"
+
+#: src/svnfrontend/svnactions.cpp:1046 src/svnfrontend/svnactions.cpp:1053
+#: src/svnfrontend/svnactions.cpp:1075
+#, kde-format
+msgid "Add and Commit"
+msgstr "添加并提交"
+
+#: src/svnfrontend/svnactions.cpp:1051
+#, kde-format
+msgid "Delete and Commit"
+msgstr "删除并提交"
+
+#: src/svnfrontend/svnactions.cpp:1114
+#, kde-format
+msgctxt "@title:window"
+msgid "Commit"
+msgstr "提交"
+
+#: src/svnfrontend/svnactions.cpp:1114
+#, kde-format
+msgid "Commit - hit Cancel for abort"
+msgstr "提交 - 按取消来中止"
+
+#: src/svnfrontend/svnactions.cpp:1141
+#, kde-format
+msgctxt "@title:window"
+msgid "Downloading"
+msgstr "正在下载"
+
+#: src/svnfrontend/svnactions.cpp:1142
+#, kde-format
+msgid "Download - hit Cancel for abort"
+msgstr "下载 - 按取消来中止"
+
+#: src/svnfrontend/svnactions.cpp:1168
+#, kde-format
+msgid "Can not do this diff because networking is disabled."
+msgstr "由于网络已禁用而无法进行这个差异比对。"
+
+#: src/svnfrontend/svnactions.cpp:1222
+#, kde-format
+msgid "Both entries seems to be the same, can not diff."
+msgstr "两个条目看起来相同，无法进行差异比较。"
+
+#: src/svnfrontend/svnactions.cpp:1283
+#, kde-format
+msgid "Diff-process could not started, check command."
+msgstr "差异进程无法启动，请检查命令。"
+
+#: src/svnfrontend/svnactions.cpp:1342 src/svnfrontend/svnactions.cpp:1404
+#, kde-format
+msgctxt "@title:window"
+msgid "Diffing"
+msgstr "正在比对差异"
+
+#: src/svnfrontend/svnactions.cpp:1342
+#, kde-format
+msgid "Diffing - hit Cancel for abort"
+msgstr "正在比对差异 - 按取消来中止"
+
+#: src/svnfrontend/svnactions.cpp:1355 src/svnfrontend/svnactions.cpp:1414
+#, kde-format
+msgid "No difference to display"
+msgstr "没有可显示的差异"
+
+#: src/svnfrontend/svnactions.cpp:1405
+#, kde-format
+msgid "Diffing - hit cancel for abort"
+msgstr "正在比对差异 - 按取消来中止"
+
+#: src/svnfrontend/svnactions.cpp:1460
+#, kde-format
+msgid "Display process could not started, check command."
+msgstr "查看进程无法启动，请检查命令。"
+
+#: src/svnfrontend/svnactions.cpp:1472
+#, kde-format
+msgctxt "@title:window"
+msgid "Diff Display"
+msgstr "差异查看"
+
+#: src/svnfrontend/svnactions.cpp:1520
+#, kde-format
+msgctxt "@title:window"
+msgid "Making update"
+msgstr "更新中"
+
+#: src/svnfrontend/svnactions.cpp:1521
+#, kde-format
+msgid "Making update - hit Cancel for abort"
+msgstr "更新中 - 按取消来中止"
+
+#: src/svnfrontend/svnactions.cpp:1606
+#, kde-format
+msgid "Which files or directories should I add?"
+msgstr "我应该要添加哪些文件或目录呢？"
+
+#: src/svnfrontend/svnactions.cpp:1613
+#, kde-format
+msgid "<center>The entry<br/>%1<br/>is versioned - break.</center>"
+msgstr "<center>条目<br/>%1<br/>已版本化 - 中止。</center>"
+
+#: src/svnfrontend/svnactions.cpp:1640
+#, kde-format
+msgid "Delete from repository"
+msgstr "从版本库删除"
+
+#: src/svnfrontend/svnactions.cpp:1691
+#, kde-format
+msgctxt "@title:window"
+msgid "Export a Repository"
+msgstr "导出版本库"
+
+#: src/svnfrontend/svnactions.cpp:1691
+#, kde-format
+msgctxt "@title:window"
+msgid "Checkout a Repository"
+msgstr "检出版本库"
+
+#: src/svnfrontend/svnactions.cpp:1709 src/svnfrontend/svnactions.cpp:1716
+#, kde-format
+msgid "Export repository"
+msgstr "导出版本库"
+
+#: src/svnfrontend/svnactions.cpp:1715
+#, kde-format
+msgid "Invalid local path given!"
+msgstr "给了无效的本地路径！"
+
+#: src/svnfrontend/svnactions.cpp:1735
+#, kde-format
+msgid "Exporting a file?"
+msgstr "正在导出文件？"
+
+#: src/svnfrontend/svnactions.cpp:1735
+#, kde-format
+msgid "Checking out a file?"
+msgstr "正在检出文件？"
+
+#: src/svnfrontend/svnactions.cpp:1791
+#, kde-format
+msgctxt "@title:window"
+msgid "Export"
+msgstr "导出"
+
+#: src/svnfrontend/svnactions.cpp:1791
+#, kde-format
+msgctxt "@title:window"
+msgid "Checkout"
+msgstr "检出"
+
+#: src/svnfrontend/svnactions.cpp:1792
+#, kde-format
+msgid "Exporting"
+msgstr "导出"
+
+#: src/svnfrontend/svnactions.cpp:1792
+#, kde-format
+msgid "Checking out"
+msgstr "正在检出"
+
+#: src/svnfrontend/svnactions.cpp:1830
+#, kde-format
+msgid "<center>The entry<br/>%1<br/>is not versioned - break.</center>"
+msgstr "<center>条目<br/>%1<br/>未版本化 - 中止。</center>"
+
+#: src/svnfrontend/svnactions.cpp:1862
+#, kde-format
+msgctxt "@title:window"
+msgid "Revert"
+msgstr "还原"
+
+#: src/svnfrontend/svnactions.cpp:1862
+#, kde-format
+msgid "Reverting items"
+msgstr "正在还原项目"
+
+#: src/svnfrontend/svnactions.cpp:1891 src/svnfrontend/svnactions.cpp:1955
+#, kde-format
+msgctxt "@title:window"
+msgid "Switch URL"
+msgstr "切换网址"
+
+#: src/svnfrontend/svnactions.cpp:1891
+#, kde-format
+msgid "Switching URL"
+msgstr "正在切换网址"
+
+#: src/svnfrontend/svnactions.cpp:1912
+#, kde-format
+msgctxt "@title:window"
+msgid "Relocate Repository"
+msgstr "迁移版本库"
+
+#: src/svnfrontend/svnactions.cpp:1913
+#, kde-format
+msgid "Relocate repository to new URL"
+msgstr "迁移版本库到新网址"
+
+#: src/svnfrontend/svnactions.cpp:1936
+#, kde-format
+msgid "Can only switch one item at time"
+msgstr "一次只能切换一个项目"
+
+#: src/svnfrontend/svnactions.cpp:1942
+#, kde-format
+msgid "Error getting entry to switch"
+msgstr "获取要切换的条目时出错"
+
+#: src/svnfrontend/svnactions.cpp:1965
+#, kde-format
+msgid "Switch URL"
+msgstr "切换网址"
+
+#: src/svnfrontend/svnactions.cpp:1982
+#, kde-format
+msgctxt "@title:window"
+msgid "Cleanup"
+msgstr "清理"
+
+#: src/svnfrontend/svnactions.cpp:1982
+#, kde-format
+msgid "Cleaning up folder"
+msgstr "正在清理文件夹"
+
+#: src/svnfrontend/svnactions.cpp:1998
+#, kde-format
+msgctxt "@title:window"
+msgid "Resolve"
+msgstr "解决"
+
+#: src/svnfrontend/svnactions.cpp:1998
+#, kde-format
+msgid "Marking resolved"
+msgstr "正在标记为已解决"
+
+#: src/svnfrontend/svnactions.cpp:2029
+#, kde-format
+msgid "Could not retrieve conflict information - giving up."
+msgstr "无法获取冲突信息 - 放弃处理。"
+
+#: src/svnfrontend/svnactions.cpp:2054
+#, kde-format
+msgid "Resolve-process could not started, check command."
+msgstr "解决进程无法启动，请检查命令。"
+
+#: src/svnfrontend/svnactions.cpp:2064
+#, kde-format
+msgctxt "@title:window"
+msgid "Import"
+msgstr "导入"
+
+#: src/svnfrontend/svnactions.cpp:2064
+#, kde-format
+msgid "Importing items"
+msgstr "正在导入项目"
+
+#: src/svnfrontend/svnactions.cpp:2093
+#, kde-format
+msgid "Nothing to merge."
+msgstr "没有要合并的东西。"
+
+#: src/svnfrontend/svnactions.cpp:2097
+#, kde-format
+msgid "No destination to merge."
+msgstr "没有合并的目的地。"
+
+#: src/svnfrontend/svnactions.cpp:2116
+#, kde-format
+msgid "Both sources must be same type."
+msgstr "两个来源必须是同一个类型。"
+
+#: src/svnfrontend/svnactions.cpp:2123
+#, kde-format
+msgid "Target for merge must same type like sources."
+msgstr "目标必须与来源是同一个类型。"
+
+#: src/svnfrontend/svnactions.cpp:2146
+#, kde-format
+msgid "Both entries seems to be the same, will not do a merge."
+msgstr "两个条目看起来是一样的，不会进行合并。"
+
+#: src/svnfrontend/svnactions.cpp:2224
+#, kde-format
+msgid "Merge process could not started, check command."
+msgstr "合并进程无法启动，请检查命令。"
+
+#: src/svnfrontend/svnactions.cpp:2306
+#, kde-format
+msgid "Merging items"
+msgstr "正在合并项目"
+
+#: src/svnfrontend/svnactions.cpp:2332 src/svnfrontend/svnactions.cpp:2349
+#, kde-format
+msgctxt "@title:window"
+msgid "Move"
+msgstr "移动"
+
+#: src/svnfrontend/svnactions.cpp:2332
+#, kde-format
+msgid "Moving/Rename item"
+msgstr "移动/重命名项目"
+
+#: src/svnfrontend/svnactions.cpp:2349
+#, kde-format
+msgid "Moving entries"
+msgstr "正在移动条目"
+
+#: src/svnfrontend/svnactions.cpp:2369 src/svnfrontend/svnactions.cpp:2383
+#, kde-format
+msgctxt "@title:window"
+msgid "Copy / Move"
+msgstr "复制 / 移动"
+
+#: src/svnfrontend/svnactions.cpp:2369 src/svnfrontend/svnactions.cpp:2383
+#, kde-format
+msgid "Copy or Moving entries"
+msgstr "正在复制或移动条目"
+
+#: src/svnfrontend/svnactions.cpp:2499
+#, kde-format
+msgid "No unversioned items found."
+msgstr "没有找到未版本化的项目。"
+
+#: src/svnfrontend/svnactions.cpp:2503
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Unversioned Items"
+msgstr "添加未版本化的项目"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_ChangedList)
+#: src/svnfrontend/svnactions.cpp:2506 src/svnfrontend/svnlogdlg.ui:163
+#, kde-format
+msgid "Item"
+msgstr "项目"
+
+#: src/svnfrontend/svnactions.cpp:2621
+#, kde-format
+msgid "Found %1 modified item"
+msgid_plural "Found %1 modified items"
+msgstr[0] "找到 %1 个已修改项目"
+
+#: src/svnfrontend/svnactions.cpp:2649
+#, kde-format
+msgid "Checking for updates finished"
+msgstr "检查更新完成"
+
+#: src/svnfrontend/svnactions.cpp:2651
+#, kde-format
+msgid "There are new items in repository"
+msgstr "版本库中有新项目"
+
+#: src/svnfrontend/svnactions.cpp:2721
+#, kde-format
+msgid "Not filling log cache because networking is disabled"
+msgstr "由于网络已禁用而不填入日志缓存"
+
+#: src/svnfrontend/svnactions.cpp:2761
+#, kde-format
+msgid "Not checking for updates because networking is disabled"
+msgstr "由于网络已禁用而不检查更新"
+
+#: src/svnfrontend/svnactions.cpp:2767
+#, kde-format
+msgid "Checking for updates started in background"
+msgstr "已在后台开始检查更新"
+
+#: src/svnfrontend/svnitem.cpp:401 src/svnfrontend/svnitem.cpp:414
+#, kde-format
+msgid "Not versioned"
+msgstr "未版本化"
+
+#: src/svnfrontend/svnitem.cpp:404
+#, kde-format
+msgid "Added in repository"
+msgstr "已在版本库添加"
+
+#: src/svnfrontend/svnitem.cpp:406
+#, kde-format
+msgid "Needs update"
+msgstr "需要更新"
+
+#: src/svnfrontend/svnitem.cpp:418
+#, kde-format
+msgid "Locally modified"
+msgstr "在本地修改"
+
+#: src/svnfrontend/svnitem.cpp:420
+#, kde-format
+msgid "Property modified"
+msgstr "属性已修改"
+
+#: src/svnfrontend/svnitem.cpp:424
+#, kde-format
+msgid "Locally added"
+msgstr "在本地添加"
+
+#: src/svnfrontend/svnitem.cpp:427
+#, kde-format
+msgid "Missing"
+msgstr "丢失"
+
+#: src/svnfrontend/svnitem.cpp:433
+#, kde-format
+msgid "Replaced"
+msgstr "已替换"
+
+#: src/svnfrontend/svnitem.cpp:436
+#, kde-format
+msgid "Ignored"
+msgstr "已忽略"
+
+#: src/svnfrontend/svnitem.cpp:439
+#, kde-format
+msgid "External"
+msgstr "外部"
+
+#: src/svnfrontend/svnitem.cpp:443
+#, kde-format
+msgid "Conflict"
+msgstr "冲突"
+
+#: src/svnfrontend/svnitem.cpp:445
+#, kde-format
+msgid "Property conflicted"
+msgstr "属性冲突"
+
+#: src/svnfrontend/svnitem.cpp:449
+#, kde-format
+msgid "Merged"
+msgstr "已合并"
+
+#: src/svnfrontend/svnitem.cpp:452
+#, kde-format
+msgid "Incomplete"
+msgstr "不完整"
+
+#: src/svnfrontend/svnitem.cpp:455
+#, kde-format
+msgid "Obstructed"
+msgstr "被阻挡"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, LogDialog)
+#: src/svnfrontend/svnlogdlg.ui:18
+#, kde-format
+msgid "SVN Log"
+msgstr "SVN 日志"
+
+#. i18n: ectx: property (text), widget (QLabel, startLabel)
+#: src/svnfrontend/svnlogdlg.ui:31
+#, kde-format
+msgid "Start revision"
+msgstr "开始修订版"
+
+#. i18n: ectx: property (text), widget (QLabel, endLabel)
+#: src/svnfrontend/svnlogdlg.ui:41
+#, kde-format
+msgid "End revision"
+msgstr "结束修订版"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_goButton)
+#: src/svnfrontend/svnlogdlg.ui:57
+#, kde-format
+msgid "Get Logs"
+msgstr "获取日志"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_PrevFiftyButton)
+#: src/svnfrontend/svnlogdlg.ui:64
+#, kde-format
+msgid "Previous entries"
+msgstr "之前的条目"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_NextFiftyButton)
+#: src/svnfrontend/svnlogdlg.ui:71
+#, kde-format
+msgid "Show from HEAD"
+msgstr "从 HEAD 开始显示"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_ChangedList)
+#: src/svnfrontend/svnlogdlg.ui:168
+#, kde-format
+msgid "Copy from"
+msgstr "复制自"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_DispPrevButton)
+#: src/svnfrontend/svnlogdlg.ui:189 src/svnfrontend/svnlogdlgimp.cpp:519
+#, kde-format
+msgid "Diff previous"
+msgstr "与前一版做差异比对"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_DispSpecDiff)
+#: src/svnfrontend/svnlogdlg.ui:208
+#, kde-format
+msgid "Select second revision with right mouse button"
+msgstr "用鼠标右键选择第二个修订版"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonListFiles)
+#: src/svnfrontend/svnlogdlg.ui:230
+#, kde-format
+msgid "List entries"
+msgstr "列出条目"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonBlame)
+#: src/svnfrontend/svnlogdlg.ui:249 src/svnfrontend/svnlogdlgimp.cpp:514
+#, kde-format
+msgid "Annotate"
+msgstr "标注"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pbHelp)
+#: src/svnfrontend/svnlogdlg.ui:275
+#, kde-format
+msgid "Help"
+msgstr "帮助"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pbClose)
+#: src/svnfrontend/svnlogdlg.ui:282
+#, kde-format
+msgid "Close"
+msgstr "关闭"
+
+#: src/svnfrontend/svnlogdlgimp.cpp:109
+#, kde-format
+msgctxt "@title:window"
+msgid "SVN Log of %1"
+msgstr "%1 的 SVN 日志"
+
+#: src/svnfrontend/svnlogdlgimp.cpp:111
+#, kde-format
+msgctxt "@title:window"
+msgid "SVN Log"
+msgstr "SVN 日志"
+
+#: src/svnfrontend/svnlogdlgimp.cpp:445
+#, kde-format
+msgid "Set version as right side of diff"
+msgstr "将版本设置为差异比对的右侧"
+
+#: src/svnfrontend/svnlogdlgimp.cpp:451
+#, kde-format
+msgid "Set version as left side of diff"
+msgstr "将版本设置为差异比对的左侧"
+
+#: src/svnfrontend/svnlogdlgimp.cpp:457
+#, kde-format
+msgid "Unset version for diff"
+msgstr "为版本取消设置差异比对"
+
+#: src/svnfrontend/svnlogdlgimp.cpp:461
+#, kde-format
+msgid "Revert this commit"
+msgstr "还原这个提交"
+
+#: src/svnfrontend/svntreeview.cpp:111
+#, kde-format
+msgid "&Move Here"
+msgstr "移至此处(&M)"
+
+#: src/svnfrontend/svntreeview.cpp:115
+#, kde-format
+msgid "&Copy Here"
+msgstr "复制到此位置(&C)"
+
+#: src/svnfrontend/svntreeview.cpp:117
+#, kde-format
+msgid "C&ancel"
+msgstr "取消(&A)"
+
+#: src/urldlg.cpp:100
+#, kde-format
+msgctxt "@title:window"
+msgid "Open"
+msgstr "打开"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, UrlDlg)
+#: src/urldlg.ui:14
+#, kde-format
+msgid "Open repository / working copy"
+msgstr "打开版本库 / 工作副本"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/urldlg.ui:20
+#, kde-format
+msgid "Open repository or working copy"
+msgstr "打开版本库或工作副本"
